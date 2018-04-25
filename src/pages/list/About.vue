@@ -1,15 +1,13 @@
 <template>
-  <footer>
-    <div class="contner">
-      {{text}}
-    </div>
-  </footer>
+  <div id="">
+    {{text}}
+  </div>
 </template>
 <script>
 export default {
-  name: "Footer",
+  name: "About",
   data: () => ({
-    text:'底部'
+    text:'关于我们'
   })
 }
 </script>

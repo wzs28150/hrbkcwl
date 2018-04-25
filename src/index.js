@@ -12,7 +12,8 @@ import VueResource from 'vue-resource'
 import routes from './utils/routes'
 import Layout from './pages/Layout.vue'
 import styles from './css/styles.scss';
-
+import NProgress from 'nprogress'
+import 'nprogress/nprogress.css'
 // Yay! Routes FTW.
 Vue.use(VueRouter)
 // I've used Vue resource because it was handy, you can use Axios, fetch APIs or any magic wand you want.
@@ -30,7 +31,13 @@ const router = new VueRouter({
   mode: 'history',
   routes: routes.routes
 })
-
+router.beforeEach((to, from, next) => {
+  NProgress.start();
+  next()
+});
+router.afterEach(transition => {
+  NProgress.done();
+});
 Vue.mixin({
   methods: {
     _veryUsefulMethod() {

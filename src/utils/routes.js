@@ -1,12 +1,20 @@
-// import Hello from '../pages/Hi.vue'
-// import Bye from '../pages/Bi.vue'
+import Home from '../pages/list/Home.vue'
+import About from '../pages/list/About.vue'
 
-const routes = [
-  // {path: '/hello', name: 'hello', component: Hello},
-  // {path: '/bye', name: 'bye', component: Bye},
+const routes = [{
+    path: '/',
+    name: 'index',
+    component: Home
+  },
+  {
+    path: '/About',
+    name: 'About',
+    component: About
+  },
   {
     path: '',
-    name: 'default'
+    name: 'index',
+    component: Home
   }
 ]
 

@@ -1,7 +1,15 @@
 <template>
   <div class="">
     <Header></Header>
-
+    <main>
+      <div class="contner">
+        <keep-alive>
+          <transition name="fade">
+            <router-view></router-view>
+          </transition>
+        </keep-alive>
+      </div>
+    </main>
     <Footer></Footer>
   </div>
 </template>
