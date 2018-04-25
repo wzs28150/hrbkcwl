@@ -1,10 +1,7 @@
+node_modules
+npm-debug.log*
 .DS_Store
-node_modules/
-dist/
-wzs-admin-win32-x64/
-npm-debug.log
-selenium-debug.log
 .idea
-package-lock.json
-.eslintrc.js
-.eslintignore
+config/*
+!config/default.js
+!config/dev.js
