@@ -1,0 +1,10 @@
+.DS_Store
+node_modules/
+dist/
+wzs-admin-win32-x64/
+npm-debug.log
+selenium-debug.log
+.idea
+package-lock.json
+.eslintrc.js
+.eslintignore

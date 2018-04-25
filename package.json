@@ -1,0 +1,48 @@
+{
+  "name": "hrbkcwl",
+  "version": "1.0.0",
+  "description": "hrbkcwl web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wzs28150/hrbkcwl.git"
+  },
+  "author": "wzs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wzs28150/hrbkcwl/issues"
+  },
+  "homepage": "https://github.com/wzs28150/hrbkcwl#readme",
+  "devDependencies": {
+    "autoprefixer": "^8.3.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "babel-runtime": "^6.26.0",
+    "connect-history-api-fallback": "^1.5.0",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "http-proxy-middleware": "^0.18.0",
+    "json-loader": "^0.5.7",
+    "nprogress": "^0.2.0",
+    "sass-loader": "^7.0.1",
+    "vue": "^2.5.16",
+    "vue-loader": "^15.0.0",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1",
+    "webpack": "^4.6.0",
+    "webpack-dev-middleware": "^3.1.2",
+    "webpack-hot-middleware": "^2.22.1",
+    "webpack-merge": "^4.1.2"
+  }
+}
