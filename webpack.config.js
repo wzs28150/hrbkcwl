@@ -56,8 +56,8 @@ const config = {
   //   publicPath: setPublicPath(),
   //   filename: buildingForLocal() ? 'js/[name].js' : 'js/[name].[hash].js'
   // },
-  
-  optimization:{
+
+  optimization: {
     runtimeChunk: false,
     splitChunks: {
       chunks: "all", //Taken from https://gist.github.com/sokra/1522d586b8e5c0f5072d7565c2bee693
@@ -82,13 +82,12 @@ const config = {
     new webpack.DefinePlugin({
       'process.env': {
         isStaging: (NODE_ENV === 'development' || NODE_ENV === 'staging'),
-        NODE_ENV: '"'+NODE_ENV+'"'
+        NODE_ENV: '"' + NODE_ENV + '"'
       }
     })
   ],
   module: {
-    rules: [
-      {
+    rules: [{
         test: /\.vue$/,
         loader: 'vue-loader',
         options: {
@@ -106,7 +105,9 @@ const config = {
         exclude: /(node_modules|bower_components)/,
         use: [{
           loader: "babel-loader",
-          options: { presets: ['es2015'] }
+          options: {
+            presets: ['es2015']
+          }
         }]
       },
       {
@@ -118,18 +119,16 @@ const config = {
       },
       {
         test: /\.scss$/,
-        use: !buildingForLocal() ?
-            [
-              MiniCssExtractPlugin.loader,
-              "css-loader", 'sass-loader'
-            ] :
-            [{
-                loader: "style-loader" // creates style nodes from JS strings
-              }, {
-                loader: "css-loader" // translates CSS into CommonJS
-              }, {
-                loader: "sass-loader" // compiles Sass to CSS
-              }]
+        use: !buildingForLocal() ? [
+          MiniCssExtractPlugin.loader,
+          "css-loader", 'sass-loader'
+        ] : [{
+          loader: "style-loader" // creates style nodes from JS strings
+        }, {
+          loader: "css-loader" // translates CSS into CommonJS
+        }, {
+          loader: "sass-loader" // compiles Sass to CSS
+        }]
       },
       {
         test: /\.svg$/,
@@ -142,8 +141,12 @@ const config = {
           name: '[name].[ext]?[hash]',
           useRelativePath: buildingForLocal()
         }
-      }    
+      },
+      {
+        test: /\.(woff|svg|eot|ttf)\??.*$/,
+        loader: 'url-loader?limit=50000&name=[path][name].[ext]'
+      }
     ]
   },
 };
-module.exports = config; 
+module.exports = config;
