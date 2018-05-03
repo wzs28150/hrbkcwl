@@ -1,0 +1,1753 @@
+2018-05-01 10:55:31,736 ERROR 12440 [-/::1/-/8ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find app/app.js from D:\web\egg\easy\wzs\app\view
+    at Map.resolve (D:\web\egg\easy\wzs\node_modules\_egg-view@2.1.0@egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 12440
+hostname: DESKTOP-53TTJ3N
+
+2018-05-01 10:55:33,767 ERROR 12440 [-/::1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find app/app.js from D:\web\egg\easy\wzs\app\view
+    at Map.resolve (D:\web\egg\easy\wzs\node_modules\_egg-view@2.1.0@egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 12440
+hostname: DESKTOP-53TTJ3N
+
+2018-05-01 11:16:18,002 ERROR 9528 [app/app.js] server render bundle error, try client render, the server render error { Error: Request failed with status code 404
+    at createError (D:\web\egg\easy\wzs\node_modules\_axios@0.17.1@axios\lib\core\createError.js:16:15)
+    at settle (D:\web\egg\easy\wzs\node_modules\_axios@0.17.1@axios\lib\core\settle.js:18:12)
+    at IncomingMessage.handleStreamEnd (D:\web\egg\easy\wzs\node_modules\_axios@0.17.1@axios\lib\adapters\http.js:192:11)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  config: 
+   { adapter: [Function: httpAdapter],
+     transformRequest: { '0': [Function: transformRequest] },
+     transformResponse: { '0': [Function: transformResponse] },
+     timeout: 0,
+     xsrfCookieName: 'XSRF-TOKEN',
+     xsrfHeaderName: 'X-XSRF-TOKEN',
+     maxContentLength: -1,
+     validateStatus: [Function: validateStatus],
+     headers: 
+      { Accept: 'application/json, text/plain, */*',
+        'User-Agent': 'axios/0.17.1' },
+     method: 'get',
+     url: 'http://127.0.0.1:7001/api/article/list',
+     data: undefined },
+  request: 
+   ClientRequest {
+     domain: null,
+     _events: 
+      { socket: [Function],
+        abort: [Function],
+        aborted: [Function],
+        error: [Function],
+        timeout: [Function],
+        prefinish: [Function: requestOnPrefinish] },
+     _eventsCount: 6,
+     _maxListeners: undefined,
+     output: [],
+     outputEncodings: [],
+     outputCallbacks: [],
+     outputSize: 0,
+     writable: true,
+     _last: true,
+     upgrading: false,
+     chunkedEncoding: false,
+     shouldKeepAlive: false,
+     useChunkedEncodingByDefault: false,
+     sendDate: false,
+     _removedConnection: false,
+     _removedContLen: false,
+     _removedTE: false,
+     _contentLength: 0,
+     _hasBody: true,
+     _trailer: '',
+     finished: true,
+     _headerSent: true,
+     socket: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: false,
+        allowHalfOpen: false,
+        _bytesDispatched: 144,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Circular],
+        read: [Function],
+        _consuming: true,
+        _idleNext: null,
+        _idlePrev: null,
+        _idleTimeout: -1,
+        [Symbol(asyncId)]: 121,
+        [Symbol(bytesRead)]: 422 },
+     connection: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: false,
+        allowHalfOpen: false,
+        _bytesDispatched: 144,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Circular],
+        read: [Function],
+        _consuming: true,
+        _idleNext: null,
+        _idlePrev: null,
+        _idleTimeout: -1,
+        [Symbol(asyncId)]: 121,
+        [Symbol(bytesRead)]: 422 },
+     _header: 'GET /api/article/list HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nUser-Agent: axios/0.17.1\r\nHost: 127.0.0.1:7001\r\nConnection: close\r\n\r\n',
+     _onPendingData: [Function: noopPendingOutput],
+     agent: 
+      Agent {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        defaultPort: 80,
+        protocol: 'http:',
+        options: [Object],
+        requests: {},
+        sockets: [Object],
+        freeSockets: {},
+        keepAliveMsecs: 1000,
+        keepAlive: false,
+        maxSockets: Infinity,
+        maxFreeSockets: 256 },
+     socketPath: undefined,
+     timeout: undefined,
+     method: 'GET',
+     path: '/api/article/list',
+     _ended: true,
+     res: 
+      IncomingMessage {
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 3,
+        _maxListeners: undefined,
+        socket: [Object],
+        connection: [Object],
+        httpVersionMajor: 1,
+        httpVersionMinor: 1,
+        httpVersion: '1.1',
+        complete: true,
+        headers: [Object],
+        rawHeaders: [Array],
+        trailers: {},
+        rawTrailers: [],
+        upgrade: false,
+        url: '',
+        method: null,
+        statusCode: 404,
+        statusMessage: 'Not Found',
+        client: [Object],
+        _consuming: true,
+        _dumped: false,
+        req: [Circular],
+        responseUrl: 'http://127.0.0.1:7001/api/article/list',
+        read: [Function] },
+     aborted: undefined,
+     timeoutCb: null,
+     upgradeOrConnect: false,
+     parser: null,
+     maxHeadersCount: null,
+     _redirectable: 
+      Writable {
+        _writableState: [Object],
+        writable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _options: [Object],
+        _redirectCount: 0,
+        _requestBodyLength: 0,
+        _requestBodyBuffers: [],
+        _onNativeResponse: [Function],
+        _currentRequest: [Circular],
+        _currentUrl: 'http://127.0.0.1:7001/api/article/list' },
+     [Symbol(outHeadersKey)]: { accept: [Array], 'user-agent': [Array], host: [Array] } },
+  response: 
+   { status: 404,
+     statusText: 'Not Found',
+     headers: 
+      { vary: 'Origin',
+        'accept-ranges': 'bytes',
+        'set-cookie': [Array],
+        'x-response-time': '0',
+        'x-frame-options': 'SAMEORIGIN',
+        'x-xss-protection': '1; mode=block',
+        'x-content-type-options': 'nosniff',
+        'x-download-options': 'noopen',
+        'content-type': 'application/json; charset=utf-8',
+        'x-readtime': '8',
+        'content-length': '23',
+        date: 'Tue, 01 May 2018 03:16:17 GMT',
+        connection: 'close' },
+     config: 
+      { adapter: [Function: httpAdapter],
+        transformRequest: [Object],
+        transformResponse: [Object],
+        timeout: 0,
+        xsrfCookieName: 'XSRF-TOKEN',
+        xsrfHeaderName: 'X-XSRF-TOKEN',
+        maxContentLength: -1,
+        validateStatus: [Function: validateStatus],
+        headers: [Object],
+        method: 'get',
+        url: 'http://127.0.0.1:7001/api/article/list',
+        data: undefined },
+     request: 
+      ClientRequest {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 6,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: true,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: false,
+        useChunkedEncodingByDefault: false,
+        sendDate: false,
+        _removedConnection: false,
+        _removedContLen: false,
+        _removedTE: false,
+        _contentLength: 0,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        _headerSent: true,
+        socket: [Object],
+        connection: [Object],
+        _header: 'GET /api/article/list HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nUser-Agent: axios/0.17.1\r\nHost: 127.0.0.1:7001\r\nConnection: close\r\n\r\n',
+        _onPendingData: [Function: noopPendingOutput],
+        agent: [Object],
+        socketPath: undefined,
+        timeout: undefined,
+        method: 'GET',
+        path: '/api/article/list',
+        _ended: true,
+        res: [Object],
+        aborted: undefined,
+        timeoutCb: null,
+        upgradeOrConnect: false,
+        parser: null,
+        maxHeadersCount: null,
+        _redirectable: [Object],
+        [Symbol(outHeadersKey)]: [Object] },
+     data: { message: 'Not Found' } } }
+2018-05-01 11:16:20,104 ERROR 9528 [app/app.js] server render bundle error, try client render, the server render error { Error: Request failed with status code 404
+    at createError (D:\web\egg\easy\wzs\node_modules\_axios@0.17.1@axios\lib\core\createError.js:16:15)
+    at settle (D:\web\egg\easy\wzs\node_modules\_axios@0.17.1@axios\lib\core\settle.js:18:12)
+    at IncomingMessage.handleStreamEnd (D:\web\egg\easy\wzs\node_modules\_axios@0.17.1@axios\lib\adapters\http.js:192:11)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  config: 
+   { adapter: [Function: httpAdapter],
+     transformRequest: { '0': [Function: transformRequest] },
+     transformResponse: { '0': [Function: transformResponse] },
+     timeout: 0,
+     xsrfCookieName: 'XSRF-TOKEN',
+     xsrfHeaderName: 'X-XSRF-TOKEN',
+     maxContentLength: -1,
+     validateStatus: [Function: validateStatus],
+     headers: 
+      { Accept: 'application/json, text/plain, */*',
+        'User-Agent': 'axios/0.17.1' },
+     method: 'get',
+     url: 'http://127.0.0.1:7001/api/article/list',
+     data: undefined },
+  request: 
+   ClientRequest {
+     domain: null,
+     _events: 
+      { socket: [Function],
+        abort: [Function],
+        aborted: [Function],
+        error: [Function],
+        timeout: [Function],
+        prefinish: [Function: requestOnPrefinish] },
+     _eventsCount: 6,
+     _maxListeners: undefined,
+     output: [],
+     outputEncodings: [],
+     outputCallbacks: [],
+     outputSize: 0,
+     writable: true,
+     _last: true,
+     upgrading: false,
+     chunkedEncoding: false,
+     shouldKeepAlive: false,
+     useChunkedEncodingByDefault: false,
+     sendDate: false,
+     _removedConnection: false,
+     _removedContLen: false,
+     _removedTE: false,
+     _contentLength: 0,
+     _hasBody: true,
+     _trailer: '',
+     finished: true,
+     _headerSent: true,
+     socket: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: false,
+        allowHalfOpen: false,
+        _bytesDispatched: 144,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Circular],
+        read: [Function],
+        _consuming: true,
+        _idleNext: null,
+        _idlePrev: null,
+        _idleTimeout: -1,
+        [Symbol(asyncId)]: 395,
+        [Symbol(bytesRead)]: 422 },
+     connection: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: false,
+        allowHalfOpen: false,
+        _bytesDispatched: 144,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Circular],
+        read: [Function],
+        _consuming: true,
+        _idleNext: null,
+        _idlePrev: null,
+        _idleTimeout: -1,
+        [Symbol(asyncId)]: 395,
+        [Symbol(bytesRead)]: 422 },
+     _header: 'GET /api/article/list HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nUser-Agent: axios/0.17.1\r\nHost: 127.0.0.1:7001\r\nConnection: close\r\n\r\n',
+     _onPendingData: [Function: noopPendingOutput],
+     agent: 
+      Agent {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        defaultPort: 80,
+        protocol: 'http:',
+        options: [Object],
+        requests: {},
+        sockets: [Object],
+        freeSockets: {},
+        keepAliveMsecs: 1000,
+        keepAlive: false,
+        maxSockets: Infinity,
+        maxFreeSockets: 256 },
+     socketPath: undefined,
+     timeout: undefined,
+     method: 'GET',
+     path: '/api/article/list',
+     _ended: true,
+     res: 
+      IncomingMessage {
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 3,
+        _maxListeners: undefined,
+        socket: [Object],
+        connection: [Object],
+        httpVersionMajor: 1,
+        httpVersionMinor: 1,
+        httpVersion: '1.1',
+        complete: true,
+        headers: [Object],
+        rawHeaders: [Array],
+        trailers: {},
+        rawTrailers: [],
+        upgrade: false,
+        url: '',
+        method: null,
+        statusCode: 404,
+        statusMessage: 'Not Found',
+        client: [Object],
+        _consuming: true,
+        _dumped: false,
+        req: [Circular],
+        responseUrl: 'http://127.0.0.1:7001/api/article/list',
+        read: [Function] },
+     aborted: undefined,
+     timeoutCb: null,
+     upgradeOrConnect: false,
+     parser: null,
+     maxHeadersCount: null,
+     _redirectable: 
+      Writable {
+        _writableState: [Object],
+        writable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _options: [Object],
+        _redirectCount: 0,
+        _requestBodyLength: 0,
+        _requestBodyBuffers: [],
+        _onNativeResponse: [Function],
+        _currentRequest: [Circular],
+        _currentUrl: 'http://127.0.0.1:7001/api/article/list' },
+     [Symbol(outHeadersKey)]: { accept: [Array], 'user-agent': [Array], host: [Array] } },
+  response: 
+   { status: 404,
+     statusText: 'Not Found',
+     headers: 
+      { vary: 'Origin',
+        'accept-ranges': 'bytes',
+        'set-cookie': [Array],
+        'x-response-time': '0',
+        'x-frame-options': 'SAMEORIGIN',
+        'x-xss-protection': '1; mode=block',
+        'x-content-type-options': 'nosniff',
+        'x-download-options': 'noopen',
+        'content-type': 'application/json; charset=utf-8',
+        'x-readtime': '2',
+        'content-length': '23',
+        date: 'Tue, 01 May 2018 03:16:20 GMT',
+        connection: 'close' },
+     config: 
+      { adapter: [Function: httpAdapter],
+        transformRequest: [Object],
+        transformResponse: [Object],
+        timeout: 0,
+        xsrfCookieName: 'XSRF-TOKEN',
+        xsrfHeaderName: 'X-XSRF-TOKEN',
+        maxContentLength: -1,
+        validateStatus: [Function: validateStatus],
+        headers: [Object],
+        method: 'get',
+        url: 'http://127.0.0.1:7001/api/article/list',
+        data: undefined },
+     request: 
+      ClientRequest {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 6,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: true,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: false,
+        useChunkedEncodingByDefault: false,
+        sendDate: false,
+        _removedConnection: false,
+        _removedContLen: false,
+        _removedTE: false,
+        _contentLength: 0,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        _headerSent: true,
+        socket: [Object],
+        connection: [Object],
+        _header: 'GET /api/article/list HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nUser-Agent: axios/0.17.1\r\nHost: 127.0.0.1:7001\r\nConnection: close\r\n\r\n',
+        _onPendingData: [Function: noopPendingOutput],
+        agent: [Object],
+        socketPath: undefined,
+        timeout: undefined,
+        method: 'GET',
+        path: '/api/article/list',
+        _ended: true,
+        res: [Object],
+        aborted: undefined,
+        timeoutCb: null,
+        upgradeOrConnect: false,
+        parser: null,
+        maxHeadersCount: null,
+        _redirectable: [Object],
+        [Symbol(outHeadersKey)]: [Object] },
+     data: { message: 'Not Found' } } }
+2018-05-01 11:24:26,399 ERROR 9528 [app/app.js] server render bundle error, try client render, the server render error { Error: Request failed with status code 404
+    at createError (D:\web\egg\easy\wzs\node_modules\_axios@0.17.1@axios\lib\core\createError.js:16:15)
+    at settle (D:\web\egg\easy\wzs\node_modules\_axios@0.17.1@axios\lib\core\settle.js:18:12)
+    at IncomingMessage.handleStreamEnd (D:\web\egg\easy\wzs\node_modules\_axios@0.17.1@axios\lib\adapters\http.js:192:11)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  config: 
+   { adapter: [Function: httpAdapter],
+     transformRequest: { '0': [Function: transformRequest] },
+     transformResponse: { '0': [Function: transformResponse] },
+     timeout: 0,
+     xsrfCookieName: 'XSRF-TOKEN',
+     xsrfHeaderName: 'X-XSRF-TOKEN',
+     maxContentLength: -1,
+     validateStatus: [Function: validateStatus],
+     headers: 
+      { Accept: 'application/json, text/plain, */*',
+        'User-Agent': 'axios/0.17.1' },
+     method: 'get',
+     url: 'http://127.0.0.1:7001/api/article/list',
+     data: undefined },
+  request: 
+   ClientRequest {
+     domain: null,
+     _events: 
+      { socket: [Function],
+        abort: [Function],
+        aborted: [Function],
+        error: [Function],
+        timeout: [Function],
+        prefinish: [Function: requestOnPrefinish] },
+     _eventsCount: 6,
+     _maxListeners: undefined,
+     output: [],
+     outputEncodings: [],
+     outputCallbacks: [],
+     outputSize: 0,
+     writable: true,
+     _last: true,
+     upgrading: false,
+     chunkedEncoding: false,
+     shouldKeepAlive: false,
+     useChunkedEncodingByDefault: false,
+     sendDate: false,
+     _removedConnection: false,
+     _removedContLen: false,
+     _removedTE: false,
+     _contentLength: 0,
+     _hasBody: true,
+     _trailer: '',
+     finished: true,
+     _headerSent: true,
+     socket: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: false,
+        allowHalfOpen: false,
+        _bytesDispatched: 144,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Circular],
+        read: [Function],
+        _consuming: true,
+        _idleNext: null,
+        _idlePrev: null,
+        _idleTimeout: -1,
+        [Symbol(asyncId)]: 965,
+        [Symbol(bytesRead)]: 422 },
+     connection: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: false,
+        allowHalfOpen: false,
+        _bytesDispatched: 144,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Circular],
+        read: [Function],
+        _consuming: true,
+        _idleNext: null,
+        _idlePrev: null,
+        _idleTimeout: -1,
+        [Symbol(asyncId)]: 965,
+        [Symbol(bytesRead)]: 422 },
+     _header: 'GET /api/article/list HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nUser-Agent: axios/0.17.1\r\nHost: 127.0.0.1:7001\r\nConnection: close\r\n\r\n',
+     _onPendingData: [Function: noopPendingOutput],
+     agent: 
+      Agent {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        defaultPort: 80,
+        protocol: 'http:',
+        options: [Object],
+        requests: {},
+        sockets: [Object],
+        freeSockets: {},
+        keepAliveMsecs: 1000,
+        keepAlive: false,
+        maxSockets: Infinity,
+        maxFreeSockets: 256 },
+     socketPath: undefined,
+     timeout: undefined,
+     method: 'GET',
+     path: '/api/article/list',
+     _ended: true,
+     res: 
+      IncomingMessage {
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 3,
+        _maxListeners: undefined,
+        socket: [Object],
+        connection: [Object],
+        httpVersionMajor: 1,
+        httpVersionMinor: 1,
+        httpVersion: '1.1',
+        complete: true,
+        headers: [Object],
+        rawHeaders: [Array],
+        trailers: {},
+        rawTrailers: [],
+        upgrade: false,
+        url: '',
+        method: null,
+        statusCode: 404,
+        statusMessage: 'Not Found',
+        client: [Object],
+        _consuming: true,
+        _dumped: false,
+        req: [Circular],
+        responseUrl: 'http://127.0.0.1:7001/api/article/list',
+        read: [Function] },
+     aborted: undefined,
+     timeoutCb: null,
+     upgradeOrConnect: false,
+     parser: null,
+     maxHeadersCount: null,
+     _redirectable: 
+      Writable {
+        _writableState: [Object],
+        writable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _options: [Object],
+        _redirectCount: 0,
+        _requestBodyLength: 0,
+        _requestBodyBuffers: [],
+        _onNativeResponse: [Function],
+        _currentRequest: [Circular],
+        _currentUrl: 'http://127.0.0.1:7001/api/article/list' },
+     [Symbol(outHeadersKey)]: { accept: [Array], 'user-agent': [Array], host: [Array] } },
+  response: 
+   { status: 404,
+     statusText: 'Not Found',
+     headers: 
+      { vary: 'Origin',
+        'accept-ranges': 'bytes',
+        'set-cookie': [Array],
+        'x-response-time': '0',
+        'x-frame-options': 'SAMEORIGIN',
+        'x-xss-protection': '1; mode=block',
+        'x-content-type-options': 'nosniff',
+        'x-download-options': 'noopen',
+        'content-type': 'application/json; charset=utf-8',
+        'x-readtime': '2',
+        'content-length': '23',
+        date: 'Tue, 01 May 2018 03:24:26 GMT',
+        connection: 'close' },
+     config: 
+      { adapter: [Function: httpAdapter],
+        transformRequest: [Object],
+        transformResponse: [Object],
+        timeout: 0,
+        xsrfCookieName: 'XSRF-TOKEN',
+        xsrfHeaderName: 'X-XSRF-TOKEN',
+        maxContentLength: -1,
+        validateStatus: [Function: validateStatus],
+        headers: [Object],
+        method: 'get',
+        url: 'http://127.0.0.1:7001/api/article/list',
+        data: undefined },
+     request: 
+      ClientRequest {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 6,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: true,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: false,
+        useChunkedEncodingByDefault: false,
+        sendDate: false,
+        _removedConnection: false,
+        _removedContLen: false,
+        _removedTE: false,
+        _contentLength: 0,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        _headerSent: true,
+        socket: [Object],
+        connection: [Object],
+        _header: 'GET /api/article/list HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nUser-Agent: axios/0.17.1\r\nHost: 127.0.0.1:7001\r\nConnection: close\r\n\r\n',
+        _onPendingData: [Function: noopPendingOutput],
+        agent: [Object],
+        socketPath: undefined,
+        timeout: undefined,
+        method: 'GET',
+        path: '/api/article/list',
+        _ended: true,
+        res: [Object],
+        aborted: undefined,
+        timeoutCb: null,
+        upgradeOrConnect: false,
+        parser: null,
+        maxHeadersCount: null,
+        _redirectable: [Object],
+        [Symbol(outHeadersKey)]: [Object] },
+     data: { message: 'Not Found' } } }
+2018-05-01 11:26:21,651 ERROR 9528 [app/app.js] server render bundle error, try client render, the server render error { Error: Request failed with status code 404
+    at createError (D:\web\egg\easy\wzs\node_modules\_axios@0.17.1@axios\lib\core\createError.js:16:15)
+    at settle (D:\web\egg\easy\wzs\node_modules\_axios@0.17.1@axios\lib\core\settle.js:18:12)
+    at IncomingMessage.handleStreamEnd (D:\web\egg\easy\wzs\node_modules\_axios@0.17.1@axios\lib\adapters\http.js:192:11)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  config: 
+   { adapter: [Function: httpAdapter],
+     transformRequest: { '0': [Function: transformRequest] },
+     transformResponse: { '0': [Function: transformResponse] },
+     timeout: 0,
+     xsrfCookieName: 'XSRF-TOKEN',
+     xsrfHeaderName: 'X-XSRF-TOKEN',
+     maxContentLength: -1,
+     validateStatus: [Function: validateStatus],
+     headers: 
+      { Accept: 'application/json, text/plain, */*',
+        'User-Agent': 'axios/0.17.1' },
+     method: 'get',
+     url: 'http://127.0.0.1:7001/api/article/list',
+     data: undefined },
+  request: 
+   ClientRequest {
+     domain: null,
+     _events: 
+      { socket: [Function],
+        abort: [Function],
+        aborted: [Function],
+        error: [Function],
+        timeout: [Function],
+        prefinish: [Function: requestOnPrefinish] },
+     _eventsCount: 6,
+     _maxListeners: undefined,
+     output: [],
+     outputEncodings: [],
+     outputCallbacks: [],
+     outputSize: 0,
+     writable: true,
+     _last: true,
+     upgrading: false,
+     chunkedEncoding: false,
+     shouldKeepAlive: false,
+     useChunkedEncodingByDefault: false,
+     sendDate: false,
+     _removedConnection: false,
+     _removedContLen: false,
+     _removedTE: false,
+     _contentLength: 0,
+     _hasBody: true,
+     _trailer: '',
+     finished: true,
+     _headerSent: true,
+     socket: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: false,
+        allowHalfOpen: false,
+        _bytesDispatched: 144,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Circular],
+        read: [Function],
+        _consuming: true,
+        _idleNext: null,
+        _idlePrev: null,
+        _idleTimeout: -1,
+        [Symbol(asyncId)]: 1263,
+        [Symbol(bytesRead)]: 422 },
+     connection: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: false,
+        allowHalfOpen: false,
+        _bytesDispatched: 144,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Circular],
+        read: [Function],
+        _consuming: true,
+        _idleNext: null,
+        _idlePrev: null,
+        _idleTimeout: -1,
+        [Symbol(asyncId)]: 1263,
+        [Symbol(bytesRead)]: 422 },
+     _header: 'GET /api/article/list HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nUser-Agent: axios/0.17.1\r\nHost: 127.0.0.1:7001\r\nConnection: close\r\n\r\n',
+     _onPendingData: [Function: noopPendingOutput],
+     agent: 
+      Agent {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        defaultPort: 80,
+        protocol: 'http:',
+        options: [Object],
+        requests: {},
+        sockets: [Object],
+        freeSockets: {},
+        keepAliveMsecs: 1000,
+        keepAlive: false,
+        maxSockets: Infinity,
+        maxFreeSockets: 256 },
+     socketPath: undefined,
+     timeout: undefined,
+     method: 'GET',
+     path: '/api/article/list',
+     _ended: true,
+     res: 
+      IncomingMessage {
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 3,
+        _maxListeners: undefined,
+        socket: [Object],
+        connection: [Object],
+        httpVersionMajor: 1,
+        httpVersionMinor: 1,
+        httpVersion: '1.1',
+        complete: true,
+        headers: [Object],
+        rawHeaders: [Array],
+        trailers: {},
+        rawTrailers: [],
+        upgrade: false,
+        url: '',
+        method: null,
+        statusCode: 404,
+        statusMessage: 'Not Found',
+        client: [Object],
+        _consuming: true,
+        _dumped: false,
+        req: [Circular],
+        responseUrl: 'http://127.0.0.1:7001/api/article/list',
+        read: [Function] },
+     aborted: undefined,
+     timeoutCb: null,
+     upgradeOrConnect: false,
+     parser: null,
+     maxHeadersCount: null,
+     _redirectable: 
+      Writable {
+        _writableState: [Object],
+        writable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _options: [Object],
+        _redirectCount: 0,
+        _requestBodyLength: 0,
+        _requestBodyBuffers: [],
+        _onNativeResponse: [Function],
+        _currentRequest: [Circular],
+        _currentUrl: 'http://127.0.0.1:7001/api/article/list' },
+     [Symbol(outHeadersKey)]: { accept: [Array], 'user-agent': [Array], host: [Array] } },
+  response: 
+   { status: 404,
+     statusText: 'Not Found',
+     headers: 
+      { vary: 'Origin',
+        'accept-ranges': 'bytes',
+        'set-cookie': [Array],
+        'x-response-time': '0',
+        'x-frame-options': 'SAMEORIGIN',
+        'x-xss-protection': '1; mode=block',
+        'x-content-type-options': 'nosniff',
+        'x-download-options': 'noopen',
+        'content-type': 'application/json; charset=utf-8',
+        'x-readtime': '6',
+        'content-length': '23',
+        date: 'Tue, 01 May 2018 03:26:21 GMT',
+        connection: 'close' },
+     config: 
+      { adapter: [Function: httpAdapter],
+        transformRequest: [Object],
+        transformResponse: [Object],
+        timeout: 0,
+        xsrfCookieName: 'XSRF-TOKEN',
+        xsrfHeaderName: 'X-XSRF-TOKEN',
+        maxContentLength: -1,
+        validateStatus: [Function: validateStatus],
+        headers: [Object],
+        method: 'get',
+        url: 'http://127.0.0.1:7001/api/article/list',
+        data: undefined },
+     request: 
+      ClientRequest {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 6,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: true,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: false,
+        useChunkedEncodingByDefault: false,
+        sendDate: false,
+        _removedConnection: false,
+        _removedContLen: false,
+        _removedTE: false,
+        _contentLength: 0,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        _headerSent: true,
+        socket: [Object],
+        connection: [Object],
+        _header: 'GET /api/article/list HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nUser-Agent: axios/0.17.1\r\nHost: 127.0.0.1:7001\r\nConnection: close\r\n\r\n',
+        _onPendingData: [Function: noopPendingOutput],
+        agent: [Object],
+        socketPath: undefined,
+        timeout: undefined,
+        method: 'GET',
+        path: '/api/article/list',
+        _ended: true,
+        res: [Object],
+        aborted: undefined,
+        timeoutCb: null,
+        upgradeOrConnect: false,
+        parser: null,
+        maxHeadersCount: null,
+        _redirectable: [Object],
+        [Symbol(outHeadersKey)]: [Object] },
+     data: { message: 'Not Found' } } }
+2018-05-01 11:27:52,304 ERROR 9528 [app/app.js] server render bundle error, try client render, the server render error { Error: Request failed with status code 404
+    at createError (D:\web\egg\easy\wzs\node_modules\_axios@0.17.1@axios\lib\core\createError.js:16:15)
+    at settle (D:\web\egg\easy\wzs\node_modules\_axios@0.17.1@axios\lib\core\settle.js:18:12)
+    at IncomingMessage.handleStreamEnd (D:\web\egg\easy\wzs\node_modules\_axios@0.17.1@axios\lib\adapters\http.js:192:11)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  config: 
+   { adapter: [Function: httpAdapter],
+     transformRequest: { '0': [Function: transformRequest] },
+     transformResponse: { '0': [Function: transformResponse] },
+     timeout: 0,
+     xsrfCookieName: 'XSRF-TOKEN',
+     xsrfHeaderName: 'X-XSRF-TOKEN',
+     maxContentLength: -1,
+     validateStatus: [Function: validateStatus],
+     headers: 
+      { Accept: 'application/json, text/plain, */*',
+        'User-Agent': 'axios/0.17.1' },
+     method: 'get',
+     url: 'http://127.0.0.1:7001/api/article/list',
+     data: undefined },
+  request: 
+   ClientRequest {
+     domain: null,
+     _events: 
+      { socket: [Function],
+        abort: [Function],
+        aborted: [Function],
+        error: [Function],
+        timeout: [Function],
+        prefinish: [Function: requestOnPrefinish] },
+     _eventsCount: 6,
+     _maxListeners: undefined,
+     output: [],
+     outputEncodings: [],
+     outputCallbacks: [],
+     outputSize: 0,
+     writable: true,
+     _last: true,
+     upgrading: false,
+     chunkedEncoding: false,
+     shouldKeepAlive: false,
+     useChunkedEncodingByDefault: false,
+     sendDate: false,
+     _removedConnection: false,
+     _removedContLen: false,
+     _removedTE: false,
+     _contentLength: 0,
+     _hasBody: true,
+     _trailer: '',
+     finished: true,
+     _headerSent: true,
+     socket: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: false,
+        allowHalfOpen: false,
+        _bytesDispatched: 144,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Circular],
+        read: [Function],
+        _consuming: true,
+        _idleNext: null,
+        _idlePrev: null,
+        _idleTimeout: -1,
+        [Symbol(asyncId)]: 1869,
+        [Symbol(bytesRead)]: 422 },
+     connection: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: false,
+        allowHalfOpen: false,
+        _bytesDispatched: 144,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Circular],
+        read: [Function],
+        _consuming: true,
+        _idleNext: null,
+        _idlePrev: null,
+        _idleTimeout: -1,
+        [Symbol(asyncId)]: 1869,
+        [Symbol(bytesRead)]: 422 },
+     _header: 'GET /api/article/list HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nUser-Agent: axios/0.17.1\r\nHost: 127.0.0.1:7001\r\nConnection: close\r\n\r\n',
+     _onPendingData: [Function: noopPendingOutput],
+     agent: 
+      Agent {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        defaultPort: 80,
+        protocol: 'http:',
+        options: [Object],
+        requests: {},
+        sockets: [Object],
+        freeSockets: {},
+        keepAliveMsecs: 1000,
+        keepAlive: false,
+        maxSockets: Infinity,
+        maxFreeSockets: 256 },
+     socketPath: undefined,
+     timeout: undefined,
+     method: 'GET',
+     path: '/api/article/list',
+     _ended: true,
+     res: 
+      IncomingMessage {
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 3,
+        _maxListeners: undefined,
+        socket: [Object],
+        connection: [Object],
+        httpVersionMajor: 1,
+        httpVersionMinor: 1,
+        httpVersion: '1.1',
+        complete: true,
+        headers: [Object],
+        rawHeaders: [Array],
+        trailers: {},
+        rawTrailers: [],
+        upgrade: false,
+        url: '',
+        method: null,
+        statusCode: 404,
+        statusMessage: 'Not Found',
+        client: [Object],
+        _consuming: true,
+        _dumped: false,
+        req: [Circular],
+        responseUrl: 'http://127.0.0.1:7001/api/article/list',
+        read: [Function] },
+     aborted: undefined,
+     timeoutCb: null,
+     upgradeOrConnect: false,
+     parser: null,
+     maxHeadersCount: null,
+     _redirectable: 
+      Writable {
+        _writableState: [Object],
+        writable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _options: [Object],
+        _redirectCount: 0,
+        _requestBodyLength: 0,
+        _requestBodyBuffers: [],
+        _onNativeResponse: [Function],
+        _currentRequest: [Circular],
+        _currentUrl: 'http://127.0.0.1:7001/api/article/list' },
+     [Symbol(outHeadersKey)]: { accept: [Array], 'user-agent': [Array], host: [Array] } },
+  response: 
+   { status: 404,
+     statusText: 'Not Found',
+     headers: 
+      { vary: 'Origin',
+        'accept-ranges': 'bytes',
+        'set-cookie': [Array],
+        'x-response-time': '0',
+        'x-frame-options': 'SAMEORIGIN',
+        'x-xss-protection': '1; mode=block',
+        'x-content-type-options': 'nosniff',
+        'x-download-options': 'noopen',
+        'content-type': 'application/json; charset=utf-8',
+        'x-readtime': '3',
+        'content-length': '23',
+        date: 'Tue, 01 May 2018 03:27:52 GMT',
+        connection: 'close' },
+     config: 
+      { adapter: [Function: httpAdapter],
+        transformRequest: [Object],
+        transformResponse: [Object],
+        timeout: 0,
+        xsrfCookieName: 'XSRF-TOKEN',
+        xsrfHeaderName: 'X-XSRF-TOKEN',
+        maxContentLength: -1,
+        validateStatus: [Function: validateStatus],
+        headers: [Object],
+        method: 'get',
+        url: 'http://127.0.0.1:7001/api/article/list',
+        data: undefined },
+     request: 
+      ClientRequest {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 6,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: true,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: false,
+        useChunkedEncodingByDefault: false,
+        sendDate: false,
+        _removedConnection: false,
+        _removedContLen: false,
+        _removedTE: false,
+        _contentLength: 0,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        _headerSent: true,
+        socket: [Object],
+        connection: [Object],
+        _header: 'GET /api/article/list HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nUser-Agent: axios/0.17.1\r\nHost: 127.0.0.1:7001\r\nConnection: close\r\n\r\n',
+        _onPendingData: [Function: noopPendingOutput],
+        agent: [Object],
+        socketPath: undefined,
+        timeout: undefined,
+        method: 'GET',
+        path: '/api/article/list',
+        _ended: true,
+        res: [Object],
+        aborted: undefined,
+        timeoutCb: null,
+        upgradeOrConnect: false,
+        parser: null,
+        maxHeadersCount: null,
+        _redirectable: [Object],
+        [Symbol(outHeadersKey)]: [Object] },
+     data: { message: 'Not Found' } } }
+2018-05-01 11:28:22,642 ERROR 13652 [app/app.js] server render bundle error, try client render, the server render error { Error: Request failed with status code 404
+    at createError (D:\web\egg\easy\wzs\node_modules\_axios@0.17.1@axios\lib\core\createError.js:16:15)
+    at settle (D:\web\egg\easy\wzs\node_modules\_axios@0.17.1@axios\lib\core\settle.js:18:12)
+    at IncomingMessage.handleStreamEnd (D:\web\egg\easy\wzs\node_modules\_axios@0.17.1@axios\lib\adapters\http.js:192:11)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  config: 
+   { adapter: [Function: httpAdapter],
+     transformRequest: { '0': [Function: transformRequest] },
+     transformResponse: { '0': [Function: transformResponse] },
+     timeout: 0,
+     xsrfCookieName: 'XSRF-TOKEN',
+     xsrfHeaderName: 'X-XSRF-TOKEN',
+     maxContentLength: -1,
+     validateStatus: [Function: validateStatus],
+     headers: 
+      { Accept: 'application/json, text/plain, */*',
+        'User-Agent': 'axios/0.17.1' },
+     method: 'get',
+     url: 'http://127.0.0.1:7001/api/article/list',
+     data: undefined },
+  request: 
+   ClientRequest {
+     domain: null,
+     _events: 
+      { socket: [Function],
+        abort: [Function],
+        aborted: [Function],
+        error: [Function],
+        timeout: [Function],
+        prefinish: [Function: requestOnPrefinish] },
+     _eventsCount: 6,
+     _maxListeners: undefined,
+     output: [],
+     outputEncodings: [],
+     outputCallbacks: [],
+     outputSize: 0,
+     writable: true,
+     _last: true,
+     upgrading: false,
+     chunkedEncoding: false,
+     shouldKeepAlive: false,
+     useChunkedEncodingByDefault: false,
+     sendDate: false,
+     _removedConnection: false,
+     _removedContLen: false,
+     _removedTE: false,
+     _contentLength: 0,
+     _hasBody: true,
+     _trailer: '',
+     finished: true,
+     _headerSent: true,
+     socket: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: false,
+        allowHalfOpen: false,
+        _bytesDispatched: 144,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Circular],
+        read: [Function],
+        _consuming: true,
+        _idleNext: null,
+        _idlePrev: null,
+        _idleTimeout: -1,
+        [Symbol(asyncId)]: 126,
+        [Symbol(bytesRead)]: 423 },
+     connection: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: false,
+        allowHalfOpen: false,
+        _bytesDispatched: 144,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Circular],
+        read: [Function],
+        _consuming: true,
+        _idleNext: null,
+        _idlePrev: null,
+        _idleTimeout: -1,
+        [Symbol(asyncId)]: 126,
+        [Symbol(bytesRead)]: 423 },
+     _header: 'GET /api/article/list HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nUser-Agent: axios/0.17.1\r\nHost: 127.0.0.1:7001\r\nConnection: close\r\n\r\n',
+     _onPendingData: [Function: noopPendingOutput],
+     agent: 
+      Agent {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        defaultPort: 80,
+        protocol: 'http:',
+        options: [Object],
+        requests: {},
+        sockets: [Object],
+        freeSockets: {},
+        keepAliveMsecs: 1000,
+        keepAlive: false,
+        maxSockets: Infinity,
+        maxFreeSockets: 256 },
+     socketPath: undefined,
+     timeout: undefined,
+     method: 'GET',
+     path: '/api/article/list',
+     _ended: true,
+     res: 
+      IncomingMessage {
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 3,
+        _maxListeners: undefined,
+        socket: [Object],
+        connection: [Object],
+        httpVersionMajor: 1,
+        httpVersionMinor: 1,
+        httpVersion: '1.1',
+        complete: true,
+        headers: [Object],
+        rawHeaders: [Array],
+        trailers: {},
+        rawTrailers: [],
+        upgrade: false,
+        url: '',
+        method: null,
+        statusCode: 404,
+        statusMessage: 'Not Found',
+        client: [Object],
+        _consuming: true,
+        _dumped: false,
+        req: [Circular],
+        responseUrl: 'http://127.0.0.1:7001/api/article/list',
+        read: [Function] },
+     aborted: undefined,
+     timeoutCb: null,
+     upgradeOrConnect: false,
+     parser: null,
+     maxHeadersCount: null,
+     _redirectable: 
+      Writable {
+        _writableState: [Object],
+        writable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _options: [Object],
+        _redirectCount: 0,
+        _requestBodyLength: 0,
+        _requestBodyBuffers: [],
+        _onNativeResponse: [Function],
+        _currentRequest: [Circular],
+        _currentUrl: 'http://127.0.0.1:7001/api/article/list' },
+     [Symbol(outHeadersKey)]: { accept: [Array], 'user-agent': [Array], host: [Array] } },
+  response: 
+   { status: 404,
+     statusText: 'Not Found',
+     headers: 
+      { vary: 'Origin',
+        'accept-ranges': 'bytes',
+        'set-cookie': [Array],
+        'x-response-time': '0',
+        'x-frame-options': 'SAMEORIGIN',
+        'x-xss-protection': '1; mode=block',
+        'x-content-type-options': 'nosniff',
+        'x-download-options': 'noopen',
+        'content-type': 'application/json; charset=utf-8',
+        'x-readtime': '77',
+        'content-length': '23',
+        date: 'Tue, 01 May 2018 03:28:22 GMT',
+        connection: 'close' },
+     config: 
+      { adapter: [Function: httpAdapter],
+        transformRequest: [Object],
+        transformResponse: [Object],
+        timeout: 0,
+        xsrfCookieName: 'XSRF-TOKEN',
+        xsrfHeaderName: 'X-XSRF-TOKEN',
+        maxContentLength: -1,
+        validateStatus: [Function: validateStatus],
+        headers: [Object],
+        method: 'get',
+        url: 'http://127.0.0.1:7001/api/article/list',
+        data: undefined },
+     request: 
+      ClientRequest {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 6,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: true,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: false,
+        useChunkedEncodingByDefault: false,
+        sendDate: false,
+        _removedConnection: false,
+        _removedContLen: false,
+        _removedTE: false,
+        _contentLength: 0,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        _headerSent: true,
+        socket: [Object],
+        connection: [Object],
+        _header: 'GET /api/article/list HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nUser-Agent: axios/0.17.1\r\nHost: 127.0.0.1:7001\r\nConnection: close\r\n\r\n',
+        _onPendingData: [Function: noopPendingOutput],
+        agent: [Object],
+        socketPath: undefined,
+        timeout: undefined,
+        method: 'GET',
+        path: '/api/article/list',
+        _ended: true,
+        res: [Object],
+        aborted: undefined,
+        timeoutCb: null,
+        upgradeOrConnect: false,
+        parser: null,
+        maxHeadersCount: null,
+        _redirectable: [Object],
+        [Symbol(outHeadersKey)]: [Object] },
+     data: { message: 'Not Found' } } }
+2018-05-01 11:37:38,798 ERROR 188 [app/app.js] server render bundle error, try client render, the server render error { Error: Cannot find module "../../../../asset/images/main-head-bg.jpg"
+    at webpackMissingModule (webpack:///./app/web/component/layout/app/header/header.css?./node_modules/_css-loader@0.28.11@css-loader?%7B%7D:7:11555)
+    at eval (webpack:///./app/web/component/layout/app/header/header.css?./node_modules/_css-loader@0.28.11@css-loader?%7B%7D:7:11673)
+    at Object../node_modules/_css-loader@0.28.11@css-loader/index.js?{}!./app/web/component/layout/app/header/header.css (__vue_ssr_bundle__:449:1)
+    at __webpack_require__ (__vue_ssr_bundle__:29:30)
+    at eval (webpack:///./app/web/component/layout/app/header/header.vue?./node_modules/_css-loader@0.28.11@css-loader?%7B%7D!./node_modules/_vue-loader@14.2.2@vue-loader/lib/style-compiler?%7B%22optionsId%22:%220%22,%22vue%22:true,%22scoped%22:false,%22sourceMap%22:false%7D!./node_modules/_postcss-loader@2.1.4@postcss-loader/lib?%7B%7D!./node_modules/_vue-loader@14.2.2@vue-loader/lib/selector.js?type=styles&index=0:3:11)
+    at Object../node_modules/_css-loader@0.28.11@css-loader/index.js?{}!./node_modules/_vue-loader@14.2.2@vue-loader/lib/style-compiler/index.js?{"optionsId":"0","vue":true,"scoped":false,"sourceMap":false}!./node_modules/_postcss-loader@2.1.4@postcss-loader/lib/index.js?{}!./node_modules/_vue-loader@14.2.2@vue-loader/lib/selector.js?type=styles&index=0!./app/web/component/layout/app/header/header.vue (__vue_ssr_bundle__:482:1)
+    at __webpack_require__ (__vue_ssr_bundle__:29:30)
+    at eval (webpack:///./app/web/component/layout/app/header/header.vue?./node_modules/_vue-style-loader@4.1.0@vue-style-loader!./node_modules/_css-loader@0.28.11@css-loader?%7B%7D!./node_modules/_vue-loader@14.2.2@vue-loader/lib/style-compiler?%7B%22optionsId%22:%220%22,%22vue%22:true,%22scoped%22:false,%22sourceMap%22:false%7D!./node_modules/_postcss-loader@2.1.4@postcss-loader/lib?%7B%7D!./node_modules/_vue-loader@14.2.2@vue-loader/lib/selector.js?type=styles&index=0:4:15)
+    at Object../node_modules/_vue-style-loader@4.1.0@vue-style-loader/index.js!./node_modules/_css-loader@0.28.11@css-loader/index.js?{}!./node_modules/_vue-loader@14.2.2@vue-loader/lib/style-compiler/index.js?{"optionsId":"0","vue":true,"scoped":false,"sourceMap":false}!./node_modules/_postcss-loader@2.1.4@postcss-loader/lib/index.js?{}!./node_modules/_vue-loader@14.2.2@vue-loader/lib/selector.js?type=styles&index=0!./app/web/component/layout/app/header/header.vue (__vue_ssr_bundle__:620:1)
+    at __webpack_require__ (__vue_ssr_bundle__:29:30) code: 'MODULE_NOT_FOUND' }
+2018-05-01 11:42:39,922 ERROR 188 [app/app.js] server render bundle error, try client render, the server render error { Error: Cannot find module "../fonts/glyphicons-halflings-regular.eot"
+    at webpackMissingModule (webpack:///./app/web/asset/css/bootstrap.min.css?./node_modules/_css-loader@0.28.11@css-loader?%7B%7D:7:4695)
+    at eval (webpack:///./app/web/asset/css/bootstrap.min.css?./node_modules/_css-loader@0.28.11@css-loader?%7B%7D:7:4813)
+    at Object../node_modules/_css-loader@0.28.11@css-loader/index.js?{}!./app/web/asset/css/bootstrap.min.css (__vue_ssr_bundle__:405:1)
+    at __webpack_require__ (__vue_ssr_bundle__:29:30)
+    at eval (webpack:///./app/web/component/layout/app/main.vue?./node_modules/_css-loader@0.28.11@css-loader?%7B%7D!./node_modules/_vue-loader@14.2.2@vue-loader/lib/style-compiler?%7B%22optionsId%22:%220%22,%22vue%22:true,%22scoped%22:false,%22sourceMap%22:false%7D!./node_modules/_postcss-loader@2.1.4@postcss-loader/lib?%7B%7D!./node_modules/_vue-loader@14.2.2@vue-loader/lib/selector.js?type=styles&index=0:3:11)
+    at Object../node_modules/_css-loader@0.28.11@css-loader/index.js?{}!./node_modules/_vue-loader@14.2.2@vue-loader/lib/style-compiler/index.js?{"optionsId":"0","vue":true,"scoped":false,"sourceMap":false}!./node_modules/_postcss-loader@2.1.4@postcss-loader/lib/index.js?{}!./node_modules/_vue-loader@14.2.2@vue-loader/lib/selector.js?type=styles&index=0!./app/web/component/layout/app/main.vue (__vue_ssr_bundle__:515:1)
+    at __webpack_require__ (__vue_ssr_bundle__:29:30)
+    at eval (webpack:///./app/web/component/layout/app/main.vue?./node_modules/_vue-style-loader@4.1.0@vue-style-loader!./node_modules/_css-loader@0.28.11@css-loader?%7B%7D!./node_modules/_vue-loader@14.2.2@vue-loader/lib/style-compiler?%7B%22optionsId%22:%220%22,%22vue%22:true,%22scoped%22:false,%22sourceMap%22:false%7D!./node_modules/_postcss-loader@2.1.4@postcss-loader/lib?%7B%7D!./node_modules/_vue-loader@14.2.2@vue-loader/lib/selector.js?type=styles&index=0:4:15)
+    at Object../node_modules/_vue-style-loader@4.1.0@vue-style-loader/index.js!./node_modules/_css-loader@0.28.11@css-loader/index.js?{}!./node_modules/_vue-loader@14.2.2@vue-loader/lib/style-compiler/index.js?{"optionsId":"0","vue":true,"scoped":false,"sourceMap":false}!./node_modules/_postcss-loader@2.1.4@postcss-loader/lib/index.js?{}!./node_modules/_vue-loader@14.2.2@vue-loader/lib/selector.js?type=styles&index=0!./app/web/component/layout/app/main.vue (__vue_ssr_bundle__:653:1)
+    at __webpack_require__ (__vue_ssr_bundle__:29:30) code: 'MODULE_NOT_FOUND' }
+2018-05-01 11:43:25,624 ERROR 188 [app/app.js] server render bundle error, try client render, the server render error { Error: Cannot find module "../fonts/glyphicons-halflings-regular.eot"
+    at webpackMissingModule (webpack:///./app/web/asset/css/bootstrap.min.css?./node_modules/_css-loader@0.28.11@css-loader?%7B%7D:7:4695)
+    at eval (webpack:///./app/web/asset/css/bootstrap.min.css?./node_modules/_css-loader@0.28.11@css-loader?%7B%7D:7:4813)
+    at Object../node_modules/_css-loader@0.28.11@css-loader/index.js?{}!./app/web/asset/css/bootstrap.min.css (__vue_ssr_bundle__:405:1)
+    at __webpack_require__ (__vue_ssr_bundle__:29:30)
+    at eval (webpack:///./app/web/component/layout/app/main.vue?./node_modules/_css-loader@0.28.11@css-loader?%7B%7D!./node_modules/_vue-loader@14.2.2@vue-loader/lib/style-compiler?%7B%22optionsId%22:%220%22,%22vue%22:true,%22scoped%22:false,%22sourceMap%22:false%7D!./node_modules/_postcss-loader@2.1.4@postcss-loader/lib?%7B%7D!./node_modules/_vue-loader@14.2.2@vue-loader/lib/selector.js?type=styles&index=0:3:11)
+    at Object../node_modules/_css-loader@0.28.11@css-loader/index.js?{}!./node_modules/_vue-loader@14.2.2@vue-loader/lib/style-compiler/index.js?{"optionsId":"0","vue":true,"scoped":false,"sourceMap":false}!./node_modules/_postcss-loader@2.1.4@postcss-loader/lib/index.js?{}!./node_modules/_vue-loader@14.2.2@vue-loader/lib/selector.js?type=styles&index=0!./app/web/component/layout/app/main.vue (__vue_ssr_bundle__:515:1)
+    at __webpack_require__ (__vue_ssr_bundle__:29:30)
+    at eval (webpack:///./app/web/component/layout/app/main.vue?./node_modules/_vue-style-loader@4.1.0@vue-style-loader!./node_modules/_css-loader@0.28.11@css-loader?%7B%7D!./node_modules/_vue-loader@14.2.2@vue-loader/lib/style-compiler?%7B%22optionsId%22:%220%22,%22vue%22:true,%22scoped%22:false,%22sourceMap%22:false%7D!./node_modules/_postcss-loader@2.1.4@postcss-loader/lib?%7B%7D!./node_modules/_vue-loader@14.2.2@vue-loader/lib/selector.js?type=styles&index=0:4:15)
+    at Object../node_modules/_vue-style-loader@4.1.0@vue-style-loader/index.js!./node_modules/_css-loader@0.28.11@css-loader/index.js?{}!./node_modules/_vue-loader@14.2.2@vue-loader/lib/style-compiler/index.js?{"optionsId":"0","vue":true,"scoped":false,"sourceMap":false}!./node_modules/_postcss-loader@2.1.4@postcss-loader/lib/index.js?{}!./node_modules/_vue-loader@14.2.2@vue-loader/lib/selector.js?type=styles&index=0!./app/web/component/layout/app/main.vue (__vue_ssr_bundle__:653:1)
+    at __webpack_require__ (__vue_ssr_bundle__:29:30) code: 'MODULE_NOT_FOUND' }
+2018-05-01 11:44:08,239 ERROR 16024 [app/app.js] server render bundle error, try client render, the server render error { Error: Cannot find module "../img/cbp-sprite.png"
+    at webpackMissingModule (webpack:///./app/web/asset/css/main.css?./node_modules/_css-loader@0.28.11@css-loader?%7B%7D:7:96359)
+    at eval (webpack:///./app/web/asset/css/main.css?./node_modules/_css-loader@0.28.11@css-loader?%7B%7D:7:96457)
+    at Object../node_modules/_css-loader@0.28.11@css-loader/index.js?{}!./app/web/asset/css/main.css (__vue_ssr_bundle__:900:1)
+    at __webpack_require__ (__vue_ssr_bundle__:29:30)
+    at eval (webpack:///./app/web/component/layout/app/main.vue?./node_modules/_css-loader@0.28.11@css-loader?%7B%7D!./node_modules/_vue-loader@14.2.2@vue-loader/lib/style-compiler?%7B%22optionsId%22:%220%22,%22vue%22:true,%22scoped%22:false,%22sourceMap%22:false%7D!./node_modules/_postcss-loader@2.1.4@postcss-loader/lib?%7B%7D!./node_modules/_vue-loader@14.2.2@vue-loader/lib/selector.js?type=styles&index=0:5:11)
+    at Object../node_modules/_css-loader@0.28.11@css-loader/index.js?{}!./node_modules/_vue-loader@14.2.2@vue-loader/lib/style-compiler/index.js?{"optionsId":"0","vue":true,"scoped":false,"sourceMap":false}!./node_modules/_postcss-loader@2.1.4@postcss-loader/lib/index.js?{}!./node_modules/_vue-loader@14.2.2@vue-loader/lib/selector.js?type=styles&index=0!./app/web/component/layout/app/main.vue (__vue_ssr_bundle__:999:1)
+    at __webpack_require__ (__vue_ssr_bundle__:29:30)
+    at eval (webpack:///./app/web/component/layout/app/main.vue?./node_modules/_vue-style-loader@4.1.0@vue-style-loader!./node_modules/_css-loader@0.28.11@css-loader?%7B%7D!./node_modules/_vue-loader@14.2.2@vue-loader/lib/style-compiler?%7B%22optionsId%22:%220%22,%22vue%22:true,%22scoped%22:false,%22sourceMap%22:false%7D!./node_modules/_postcss-loader@2.1.4@postcss-loader/lib?%7B%7D!./node_modules/_vue-loader@14.2.2@vue-loader/lib/selector.js?type=styles&index=0:4:15)
+    at Object../node_modules/_vue-style-loader@4.1.0@vue-style-loader/index.js!./node_modules/_css-loader@0.28.11@css-loader/index.js?{}!./node_modules/_vue-loader@14.2.2@vue-loader/lib/style-compiler/index.js?{"optionsId":"0","vue":true,"scoped":false,"sourceMap":false}!./node_modules/_postcss-loader@2.1.4@postcss-loader/lib/index.js?{}!./node_modules/_vue-loader@14.2.2@vue-loader/lib/selector.js?type=styles&index=0!./app/web/component/layout/app/main.vue (__vue_ssr_bundle__:1137:1)
+    at __webpack_require__ (__vue_ssr_bundle__:29:30) code: 'MODULE_NOT_FOUND' }
+2018-05-01 11:44:49,008 ERROR 16024 [app/app.js] server render bundle error, try client render, the server render error { Error: Cannot find module "../img/cbp-sprite.png"
+    at webpackMissingModule (webpack:///./app/web/asset/css/main.css?./node_modules/_css-loader@0.28.11@css-loader?%7B%7D:7:96359)
+    at eval (webpack:///./app/web/asset/css/main.css?./node_modules/_css-loader@0.28.11@css-loader?%7B%7D:7:96457)
+    at Object../node_modules/_css-loader@0.28.11@css-loader/index.js?{}!./app/web/asset/css/main.css (__vue_ssr_bundle__:1021:1)
+    at __webpack_require__ (__vue_ssr_bundle__:29:30)
+    at eval (webpack:///./app/web/component/layout/app/main.vue?./node_modules/_css-loader@0.28.11@css-loader?%7B%7D!./node_modules/_vue-loader@14.2.2@vue-loader/lib/style-compiler?%7B%22optionsId%22:%220%22,%22vue%22:true,%22scoped%22:false,%22sourceMap%22:false%7D!./node_modules/_postcss-loader@2.1.4@postcss-loader/lib?%7B%7D!./node_modules/_vue-loader@14.2.2@vue-loader/lib/selector.js?type=styles&index=0:5:11)
+    at Object../node_modules/_css-loader@0.28.11@css-loader/index.js?{}!./node_modules/_vue-loader@14.2.2@vue-loader/lib/style-compiler/index.js?{"optionsId":"0","vue":true,"scoped":false,"sourceMap":false}!./node_modules/_postcss-loader@2.1.4@postcss-loader/lib/index.js?{}!./node_modules/_vue-loader@14.2.2@vue-loader/lib/selector.js?type=styles&index=0!./app/web/component/layout/app/main.vue (__vue_ssr_bundle__:1120:1)
+    at __webpack_require__ (__vue_ssr_bundle__:29:30)
+    at eval (webpack:///./app/web/component/layout/app/main.vue?./node_modules/_vue-style-loader@4.1.0@vue-style-loader!./node_modules/_css-loader@0.28.11@css-loader?%7B%7D!./node_modules/_vue-loader@14.2.2@vue-loader/lib/style-compiler?%7B%22optionsId%22:%220%22,%22vue%22:true,%22scoped%22:false,%22sourceMap%22:false%7D!./node_modules/_postcss-loader@2.1.4@postcss-loader/lib?%7B%7D!./node_modules/_vue-loader@14.2.2@vue-loader/lib/selector.js?type=styles&index=0:4:15)
+    at Object../node_modules/_vue-style-loader@4.1.0@vue-style-loader/index.js!./node_modules/_css-loader@0.28.11@css-loader/index.js?{}!./node_modules/_vue-loader@14.2.2@vue-loader/lib/style-compiler/index.js?{"optionsId":"0","vue":true,"scoped":false,"sourceMap":false}!./node_modules/_postcss-loader@2.1.4@postcss-loader/lib/index.js?{}!./node_modules/_vue-loader@14.2.2@vue-loader/lib/selector.js?type=styles&index=0!./app/web/component/layout/app/main.vue (__vue_ssr_bundle__:1258:1)
+    at __webpack_require__ (__vue_ssr_bundle__:29:30) code: 'MODULE_NOT_FOUND' }
+2018-05-01 11:45:12,928 ERROR 3404 [app/app.js] server render bundle error, try client render, the server render error { Error: Cannot find module "../img/cbp-sprite.png"
+    at webpackMissingModule (webpack:///./app/web/asset/css/main.css?./node_modules/_css-loader@0.28.11@css-loader?%7B%7D:7:96359)
+    at eval (webpack:///./app/web/asset/css/main.css?./node_modules/_css-loader@0.28.11@css-loader?%7B%7D:7:96457)
+    at Object../node_modules/_css-loader@0.28.11@css-loader/index.js?{}!./app/web/asset/css/main.css (__vue_ssr_bundle__:1021:1)
+    at __webpack_require__ (__vue_ssr_bundle__:29:30)
+    at eval (webpack:///./app/web/component/layout/app/main.vue?./node_modules/_css-loader@0.28.11@css-loader?%7B%7D!./node_modules/_vue-loader@14.2.2@vue-loader/lib/style-compiler?%7B%22optionsId%22:%220%22,%22vue%22:true,%22scoped%22:false,%22sourceMap%22:false%7D!./node_modules/_postcss-loader@2.1.4@postcss-loader/lib?%7B%7D!./node_modules/_vue-loader@14.2.2@vue-loader/lib/selector.js?type=styles&index=0:5:11)
+    at Object../node_modules/_css-loader@0.28.11@css-loader/index.js?{}!./node_modules/_vue-loader@14.2.2@vue-loader/lib/style-compiler/index.js?{"optionsId":"0","vue":true,"scoped":false,"sourceMap":false}!./node_modules/_postcss-loader@2.1.4@postcss-loader/lib/index.js?{}!./node_modules/_vue-loader@14.2.2@vue-loader/lib/selector.js?type=styles&index=0!./app/web/component/layout/app/main.vue (__vue_ssr_bundle__:1120:1)
+    at __webpack_require__ (__vue_ssr_bundle__:29:30)
+    at eval (webpack:///./app/web/component/layout/app/main.vue?./node_modules/_vue-style-loader@4.1.0@vue-style-loader!./node_modules/_css-loader@0.28.11@css-loader?%7B%7D!./node_modules/_vue-loader@14.2.2@vue-loader/lib/style-compiler?%7B%22optionsId%22:%220%22,%22vue%22:true,%22scoped%22:false,%22sourceMap%22:false%7D!./node_modules/_postcss-loader@2.1.4@postcss-loader/lib?%7B%7D!./node_modules/_vue-loader@14.2.2@vue-loader/lib/selector.js?type=styles&index=0:4:15)
+    at Object../node_modules/_vue-style-loader@4.1.0@vue-style-loader/index.js!./node_modules/_css-loader@0.28.11@css-loader/index.js?{}!./node_modules/_vue-loader@14.2.2@vue-loader/lib/style-compiler/index.js?{"optionsId":"0","vue":true,"scoped":false,"sourceMap":false}!./node_modules/_postcss-loader@2.1.4@postcss-loader/lib/index.js?{}!./node_modules/_vue-loader@14.2.2@vue-loader/lib/selector.js?type=styles&index=0!./app/web/component/layout/app/main.vue (__vue_ssr_bundle__:1258:1)
+    at __webpack_require__ (__vue_ssr_bundle__:29:30) code: 'MODULE_NOT_FOUND' }
+2018-05-01 11:46:06,175 ERROR 3404 [app/app.js] server render bundle error, try client render, the server render error { Error: Cannot find module "../img/cbp-sprite.png"
+    at webpackMissingModule (webpack:///./app/web/asset/css/main.css?./node_modules/_css-loader@0.28.11@css-loader?%7B%7D:7:96359)
+    at eval (webpack:///./app/web/asset/css/main.css?./node_modules/_css-loader@0.28.11@css-loader?%7B%7D:7:96457)
+    at Object../node_modules/_css-loader@0.28.11@css-loader/index.js?{}!./app/web/asset/css/main.css (__vue_ssr_bundle__:1021:1)
+    at __webpack_require__ (__vue_ssr_bundle__:29:30)
+    at eval (webpack:///./app/web/component/layout/app/main.vue?./node_modules/_css-loader@0.28.11@css-loader?%7B%7D!./node_modules/_vue-loader@14.2.2@vue-loader/lib/style-compiler?%7B%22optionsId%22:%220%22,%22vue%22:true,%22scoped%22:false,%22sourceMap%22:false%7D!./node_modules/_postcss-loader@2.1.4@postcss-loader/lib?%7B%7D!./node_modules/_vue-loader@14.2.2@vue-loader/lib/selector.js?type=styles&index=0:5:11)
+    at Object../node_modules/_css-loader@0.28.11@css-loader/index.js?{}!./node_modules/_vue-loader@14.2.2@vue-loader/lib/style-compiler/index.js?{"optionsId":"0","vue":true,"scoped":false,"sourceMap":false}!./node_modules/_postcss-loader@2.1.4@postcss-loader/lib/index.js?{}!./node_modules/_vue-loader@14.2.2@vue-loader/lib/selector.js?type=styles&index=0!./app/web/component/layout/app/main.vue (__vue_ssr_bundle__:1120:1)
+    at __webpack_require__ (__vue_ssr_bundle__:29:30)
+    at eval (webpack:///./app/web/component/layout/app/main.vue?./node_modules/_vue-style-loader@4.1.0@vue-style-loader!./node_modules/_css-loader@0.28.11@css-loader?%7B%7D!./node_modules/_vue-loader@14.2.2@vue-loader/lib/style-compiler?%7B%22optionsId%22:%220%22,%22vue%22:true,%22scoped%22:false,%22sourceMap%22:false%7D!./node_modules/_postcss-loader@2.1.4@postcss-loader/lib?%7B%7D!./node_modules/_vue-loader@14.2.2@vue-loader/lib/selector.js?type=styles&index=0:4:15)
+    at Object../node_modules/_vue-style-loader@4.1.0@vue-style-loader/index.js!./node_modules/_css-loader@0.28.11@css-loader/index.js?{}!./node_modules/_vue-loader@14.2.2@vue-loader/lib/style-compiler/index.js?{"optionsId":"0","vue":true,"scoped":false,"sourceMap":false}!./node_modules/_postcss-loader@2.1.4@postcss-loader/lib/index.js?{}!./node_modules/_vue-loader@14.2.2@vue-loader/lib/selector.js?type=styles&index=0!./app/web/component/layout/app/main.vue (__vue_ssr_bundle__:1258:1)
+    at __webpack_require__ (__vue_ssr_bundle__:29:30) code: 'MODULE_NOT_FOUND' }
+2018-05-01 12:22:46,513 ERROR 3404 [app/app.js] server render bundle error, try client render, the server render error Error: render function or template not defined in component: anonymous
+    at normalizeRender (D:\web\egg\easy\wzs\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:7396:13)
+    at renderComponentInner (D:\web\egg\easy\wzs\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:7520:3)
+    at renderComponent (D:\web\egg\easy\wzs\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:7491:5)
+    at renderNode (D:\web\egg\easy\wzs\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:7407:5)
+    at renderComponentInner (D:\web\egg\easy\wzs\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:7527:3)
+    at renderComponent (D:\web\egg\easy\wzs\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:7491:5)
+    at RenderContext.renderNode (D:\web\egg\easy\wzs\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:7407:5)
+    at RenderContext.next (D:\web\egg\easy\wzs\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:2428:14)
+    at cachedWrite (D:\web\egg\easy\wzs\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:2287:9)
+    at renderElement (D:\web\egg\easy\wzs\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:7645:5)
+2018-05-01 12:23:39,769 ERROR 3404 [app/app.js] server render bundle error, try client render, the server render error Error: render function or template not defined in component: anonymous
+    at normalizeRender (D:\web\egg\easy\wzs\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:7396:13)
+    at renderComponentInner (D:\web\egg\easy\wzs\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:7520:3)
+    at renderComponent (D:\web\egg\easy\wzs\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:7491:5)
+    at renderNode (D:\web\egg\easy\wzs\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:7407:5)
+    at renderComponentInner (D:\web\egg\easy\wzs\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:7527:3)
+    at renderComponent (D:\web\egg\easy\wzs\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:7491:5)
+    at RenderContext.renderNode (D:\web\egg\easy\wzs\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:7407:5)
+    at RenderContext.next (D:\web\egg\easy\wzs\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:2428:14)
+    at cachedWrite (D:\web\egg\easy\wzs\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:2287:9)
+    at renderElement (D:\web\egg\easy\wzs\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:7645:5)
+2018-05-01 12:30:50,526 ERROR 1556 [app/app.js] server render bundle error, try client render, the server render error ReferenceError: Vue is not defined
+    at eval (webpack:///./app/web/page/app/app.js?:21:1)
+    at Object../app/web/page/app/app.js (__vue_ssr_bundle__:868:1)
+    at __webpack_require__ (__vue_ssr_bundle__:29:30)
+    at __vue_ssr_bundle__:108:18
+    at Object.<anonymous> (__vue_ssr_bundle__:111:10)
+    at evaluateModule (D:\web\egg\easy\wzs\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:8338:21)
+    at D:\web\egg\easy\wzs\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:8374:17
+    at new Promise (<anonymous>)
+    at D:\web\egg\easy\wzs\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:8372:14
+    at Object.renderToString (D:\web\egg\easy\wzs\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:8564:9)
+2018-05-01 12:30:52,132 ERROR 1556 [app/app.js] server render bundle error, try client render, the server render error ReferenceError: Vue is not defined
+    at eval (webpack:///./app/web/page/app/app.js?:21:1)
+    at Object../app/web/page/app/app.js (__vue_ssr_bundle__:868:1)
+    at __webpack_require__ (__vue_ssr_bundle__:29:30)
+    at __vue_ssr_bundle__:108:18
+    at Object.<anonymous> (__vue_ssr_bundle__:111:10)
+    at evaluateModule (D:\web\egg\easy\wzs\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:8338:21)
+    at D:\web\egg\easy\wzs\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:8374:17
+    at new Promise (<anonymous>)
+    at D:\web\egg\easy\wzs\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:8372:14
+    at Object.renderToString (D:\web\egg\easy\wzs\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:8564:9)
+2018-05-01 12:53:23,753 ERROR 1556 [app/app.js] server render bundle error, try client render, the server render error Error: Module build failed: 
+undefined
+    ^
+      Invalid CSS after "body{": expected "}", was "{"
+      in D:\web\egg\easy\wzs\app\web\component\layout\app\main.vue (line 10, column 6)
+    at eval (webpack:///./app/web/component/layout/app/main.vue?./node_modules/_css-loader@0.28.11@css-loader!./node_modules/_vue-loader@14.2.2@vue-loader/lib/style-compiler?%7B%22optionsId%22:%220%22,%22vue%22:true,%22scoped%22:false,%22sourceMap%22:false%7D!./node_modules/_sass-loader@6.0.7@sass-loader/lib/loader.js?indentedSyntax!./node_modules/_vue-loader@14.2.2@vue-loader/lib/selector.js?type=styles&index=0:1:7)
+    at Object../node_modules/_css-loader@0.28.11@css-loader/index.js!./node_modules/_vue-loader@14.2.2@vue-loader/lib/style-compiler/index.js?{"optionsId":"0","vue":true,"scoped":false,"sourceMap":false}!./node_modules/_sass-loader@6.0.7@sass-loader/lib/loader.js?indentedSyntax!./node_modules/_vue-loader@14.2.2@vue-loader/lib/selector.js?type=styles&index=0!./app/web/component/layout/app/main.vue (__vue_ssr_bundle__:418:1)
+    at __webpack_require__ (__vue_ssr_bundle__:29:30)
+    at eval (webpack:///./app/web/component/layout/app/main.vue?./node_modules/_vue-style-loader@4.1.0@vue-style-loader!./node_modules/_css-loader@0.28.11@css-loader!./node_modules/_vue-loader@14.2.2@vue-loader/lib/style-compiler?%7B%22optionsId%22:%220%22,%22vue%22:true,%22scoped%22:false,%22sourceMap%22:false%7D!./node_modules/_sass-loader@6.0.7@sass-loader/lib/loader.js?indentedSyntax!./node_modules/_vue-loader@14.2.2@vue-loader/lib/selector.js?type=styles&index=0:4:15)
+    at Object../node_modules/_vue-style-loader@4.1.0@vue-style-loader/index.js!./node_modules/_css-loader@0.28.11@css-loader/index.js!./node_modules/_vue-loader@14.2.2@vue-loader/lib/style-compiler/index.js?{"optionsId":"0","vue":true,"scoped":false,"sourceMap":false}!./node_modules/_sass-loader@6.0.7@sass-loader/lib/loader.js?indentedSyntax!./node_modules/_vue-loader@14.2.2@vue-loader/lib/selector.js?type=styles&index=0!./app/web/component/layout/app/main.vue (__vue_ssr_bundle__:590:1)
+    at __webpack_require__ (__vue_ssr_bundle__:29:30)
+    at VueComponent.injectStyle (webpack:///./app/web/component/layout/app/main.vue?:7:5)
+    at VueComponent.hook (webpack:///./node_modules/_vue-loader@14.2.2@vue-loader/lib/runtime/component-normalizer.js?:63:22)
+    at callHook (D:\web\egg\easy\wzs\node_modules\_vue@2.5.16@vue\dist\vue.runtime.common.js:2919:21)
+    at VueComponent.Vue._init (D:\web\egg\easy\wzs\node_modules\_vue@2.5.16@vue\dist\vue.runtime.common.js:4624:5)
+2018-05-02 08:20:20,981 ERROR 5712 nodejs.ClusterClientNoResponseError: client no response in 31401551ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\web\egg\easy\wzs\node_modules\_cluster-client@2.1.0@cluster-client\lib\leader.js:74:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: 'ClusterClientNoResponseError'
+pid: 5712
+hostname: DESKTOP-53TTJ3N
+
