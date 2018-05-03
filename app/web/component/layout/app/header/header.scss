@@ -38,12 +38,12 @@ header {
     }
 
     label.myInput {
-      display         : inline-block;
+      display         : none;
       width           : 40px;
       height          : 40px;
       background-color: transparent;
       cursor          : pointer;
-      margin          : 10px;
+      margin          : 25px 10px;
       z-index         : 100;
       position        : fixed;
       right           : 0;
@@ -54,22 +54,9 @@ header {
       .menu {
         margin-top: 10px;
 
-        &::after {
-          content              : '';
-          width                : 90%;
-          height               : 90%;
-          left                 : 0;
-          top                  : 0;
-          position             : absolute;
-          border               : 2px solid transparent;
-          -moz-border-radius   : 100%;
-          -webkit-border-radius: 100%;
-          border-radius        : 100%;
-        }
-
         .bar {
-          height               : 3px;
-          width                : 25px;
+          height               : 2px;
+          width                : 20px;
           border-radius        : 5px;
           margin               : 5px auto;
           display              : block;
@@ -179,6 +166,14 @@ header {
             margin: 0 15px;
           }
         }
+        @media (max-width: 767px) {
+          &.ownmenu {
+            width     : 100%;
+            background: rgba(37,48,48,0.95);
+            max-height: 450px;
+            overflow-y: scroll;
+          }
+        }
       }
     }
 
@@ -244,6 +239,30 @@ header {
           padding-left: 50px;
         }
       }
+      @media (max-width: 991px) {
+        #myInput:checked ~label.myInput .menu::after {
+          -moz-animation   : circle-creation 1s forwards;
+          -webkit-animation: circle-creation 1s forwards;
+          animation        : circle-creation 1s forwards;
+        }
+
+        #myInput:checked ~label.myInput .bar:nth-of-type(1) {
+          transform: translateY(7px) rotate(45deg);
+        }
+
+        #myInput:checked ~label.myInput .bar:nth-of-type(2) {
+          transform : translateX(100px);
+          transition: 0.6s;
+        }
+
+        #myInput:checked ~label.myInput .bar:nth-of-type(3) {
+          transform: translateY(-7px) rotate(-45deg);
+        }
+
+        #myInput:checked ~ .navbar {
+          display: block;
+        }
+      }
       @media (max-width: 991px) and (min-width: 768px) {
         .logo {
           position  : relative;
@@ -258,14 +277,24 @@ header {
           }
         }
 
+        label.myInput {
+          display: inline-block;
+        }
+
+        #myInput {
+          display: none;
+        }
+
         .navbar {
           width        : 100%;
           padding-right: 0;
           float        : right;
+          display      : none;
 
           .ownmenu {
-            float: left;
-            width: 100%;
+            float     : left;
+            width     : 100%;
+            margin-top: 0;
 
             li {
               float : left;
@@ -280,12 +309,67 @@ header {
         }
 
         .social_icons {
-          position: absolute;
-          left    : 15px;
-          float   : left;
-          width   : 120px;
+          position  : absolute;
+          left      : 15px;
+          float     : left;
+          top       : 0;
+          margin-top: 35px;
+          width     : 120px;
         }
       }
+      @media (max-width: 767px) {
+        .social_icons {
+          top       : 0;
+          right     : 120px;
+          margin-top: 35px;
+        }
+
+        .logo {
+          padding : 0;
+          position: relative;
+          left    : 0;
+        }
+
+        label.myInput {
+          display: inline-block;
+        }
+
+        .navbar {
+          display      : none;
+          padding-right: 0;
+
+          ul {
+            li {
+              position: relative;
+              z-index : 9;
+              margin  : 0;
+              width   : 100%;
+
+              a {
+                padding   : 10px 20px;
+                text-align: left;
+              }
+
+              &.active a:before {
+                height: 1px;
+              }
+            }
+          }
+        }
+      }
+      @media (max-width: 540px) {
+        .social_icons {
+          display: none;
+        }
+      }
+    }
+  }
+  @media (max-width: 767px) {
+    &.header-normal {
+      display   : inline-block;
+      width     : 100%;
+      min-height: 80px;
+      border    : none;
     }
   }
 }

@@ -1,9 +1,9 @@
 <template>
-  <div class="main">
+  <main >
     <!-- <div class="page-container page-component">
       <slot name="content"></slot>
     </div> -->
-  </div>
+  </main>
 </template>
 <style>
   @import "content.css";

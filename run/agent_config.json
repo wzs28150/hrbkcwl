@@ -93,8 +93,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-watcher@3.0.0@egg-watcher\\lib\\event-sources\\default",
-        "development": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-watcher@3.0.0@egg-watcher\\lib\\event-sources\\development"
+        "default": "D:\\web\\hrbkcwl\\node_modules\\_egg-watcher@3.0.0@egg-watcher\\lib\\event-sources\\default",
+        "development": "D:\\web\\hrbkcwl\\node_modules\\_egg-watcher@3.0.0@egg-watcher\\lib\\event-sources\\development"
       }
     },
     "multipart": {
@@ -124,7 +124,7 @@
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "D:\\web\\egg\\easy\\wzs\\logs\\wzs\\egg-schedule.log"
+        "file": "D:\\web\\hrbkcwl\\logs\\wzs\\egg-schedule.log"
       }
     },
     "logrotator": {
@@ -138,7 +138,7 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "D:\\web\\egg\\easy\\wzs\\public",
+      "dir": "D:\\web\\hrbkcwl\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -146,7 +146,7 @@
       "maxAge": 0
     },
     "view": {
-      "root": "D:\\web\\egg\\easy\\wzs\\app\\view",
+      "root": "D:\\web\\hrbkcwl\\app\\view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
@@ -156,8 +156,8 @@
     },
     "vuessr": {
       "doctype": "<!doctype html>",
-      "layout": "D:\\web\\egg\\easy\\wzs\\app\\web\\view\\layout.html",
-      "manifest": "D:\\web\\egg\\easy\\wzs\\config\\manifest.json",
+      "layout": "D:\\web\\hrbkcwl\\app\\web\\view\\layout.html",
+      "manifest": "D:\\web\\hrbkcwl\\config\\manifest.json",
       "injectHeadRegex": "/(<\\/head>)/i",
       "injectBodyRegex": "/(<\\/body>)/i",
       "injectCss": false,
@@ -171,7 +171,7 @@
       },
       "afterRender": "<Function afterRender>",
       "renderOptions": {
-        "basedir": "D:\\web\\egg\\easy\\wzs\\app\\view"
+        "basedir": "D:\\web\\hrbkcwl\\app\\view"
       }
     },
     "cors": {},
@@ -186,7 +186,7 @@
     "logview": {
       "prefix": "__logs",
       "staticHost": "https://unpkg.cnpmjs.org",
-      "dir": "D:\\web\\egg\\easy\\wzs\\logs"
+      "dir": "D:\\web\\hrbkcwl\\logs"
     },
     "env": "local",
     "name": "wzs",
@@ -272,9 +272,9 @@
       "license": "MIT",
       "homepage": "https://github.com/hubcarl/egg-vue-webpack-boilerplate"
     },
-    "baseDir": "D:\\web\\egg\\easy\\wzs",
+    "baseDir": "D:\\web\\hrbkcwl",
     "HOME": "C:\\Users\\wzs.000",
-    "rundir": "D:\\web\\egg\\easy\\wzs\\run",
+    "rundir": "D:\\web\\hrbkcwl\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -304,7 +304,7 @@
       }
     },
     "logger": {
-      "dir": "D:\\web\\egg\\easy\\wzs\\logs",
+      "dir": "D:\\web\\hrbkcwl\\logs",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -362,6 +362,7 @@
       }
     },
     "clusterClient": {
+      "maxWaitTime": 60000,
       "responseTimeout": 60000
     },
     "onClientError": null,
@@ -380,8 +381,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\plugin.js",
-      "path": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-session@3.1.0@egg-session",
+      "from": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\plugin.js",
+      "path": "D:\\web\\hrbkcwl\\node_modules\\_egg-session@3.1.0@egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -393,8 +394,8 @@
         "session"
       ],
       "env": [],
-      "from": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\plugin.js",
-      "path": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-security@2.2.2@egg-security",
+      "from": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\plugin.js",
+      "path": "D:\\web\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security",
       "version": "2.2.2"
     },
     "jsonp": {
@@ -406,8 +407,8 @@
         "security"
       ],
       "env": [],
-      "from": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\plugin.js",
-      "path": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp",
+      "from": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\plugin.js",
+      "path": "D:\\web\\hrbkcwl\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -419,8 +420,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\plugin.js",
-      "path": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-onerror@2.0.0@egg-onerror",
+      "from": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\plugin.js",
+      "path": "D:\\web\\hrbkcwl\\node_modules\\_egg-onerror@2.0.0@egg-onerror",
       "version": "2.0.0"
     },
     "i18n": {
@@ -430,8 +431,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\plugin.js",
-      "path": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-i18n@2.0.0@egg-i18n",
+      "from": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\plugin.js",
+      "path": "D:\\web\\hrbkcwl\\node_modules\\_egg-i18n@2.0.0@egg-i18n",
       "version": "2.0.0"
     },
     "watcher": {
@@ -441,8 +442,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\plugin.js",
-      "path": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-watcher@3.0.0@egg-watcher",
+      "from": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\plugin.js",
+      "path": "D:\\web\\hrbkcwl\\node_modules\\_egg-watcher@3.0.0@egg-watcher",
       "version": "3.0.0"
     },
     "multipart": {
@@ -452,8 +453,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\plugin.js",
-      "path": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-multipart@2.0.0@egg-multipart",
+      "from": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\plugin.js",
+      "path": "D:\\web\\hrbkcwl\\node_modules\\_egg-multipart@2.0.0@egg-multipart",
       "version": "2.0.0"
     },
     "development": {
@@ -467,8 +468,8 @@
       "env": [
         "local"
       ],
-      "from": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\plugin.js",
-      "path": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-development@2.2.0@egg-development",
+      "from": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\plugin.js",
+      "path": "D:\\web\\hrbkcwl\\node_modules\\_egg-development@2.2.0@egg-development",
       "version": "2.2.0"
     },
     "schedule": {
@@ -478,8 +479,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\plugin.js",
-      "path": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-schedule@3.3.0@egg-schedule",
+      "from": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\plugin.js",
+      "path": "D:\\web\\hrbkcwl\\node_modules\\_egg-schedule@3.3.0@egg-schedule",
       "version": "3.3.0"
     },
     "logrotator": {
@@ -491,8 +492,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\plugin.js",
-      "path": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-logrotator@3.0.3@egg-logrotator",
+      "from": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\plugin.js",
+      "path": "D:\\web\\hrbkcwl\\node_modules\\_egg-logrotator@3.0.3@egg-logrotator",
       "version": "3.0.3"
     },
     "static": {
@@ -502,9 +503,9 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\web\\egg\\easy\\wzs\\config\\plugin.js",
-      "path": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-static@2.1.0@egg-static",
-      "version": "2.1.0"
+      "from": "D:\\web\\hrbkcwl\\config\\plugin.js",
+      "path": "D:\\web\\hrbkcwl\\node_modules\\_egg-static@2.1.1@egg-static",
+      "version": "2.1.1"
     },
     "view": {
       "enable": true,
@@ -513,8 +514,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\plugin.js",
-      "path": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-view@2.1.0@egg-view",
+      "from": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\plugin.js",
+      "path": "D:\\web\\hrbkcwl\\node_modules\\_egg-view@2.1.0@egg-view",
       "version": "2.1.0"
     },
     "vuessr": {
@@ -524,8 +525,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\web\\egg\\easy\\wzs\\config\\plugin.js",
-      "path": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr",
+      "from": "D:\\web\\hrbkcwl\\config\\plugin.js",
+      "path": "D:\\web\\hrbkcwl\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr",
       "version": "3.0.8"
     },
     "cors": {
@@ -535,8 +536,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\web\\egg\\easy\\wzs\\config\\plugin.local.js",
-      "path": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-cors@2.0.0@egg-cors",
+      "from": "D:\\web\\hrbkcwl\\config\\plugin.local.js",
+      "path": "D:\\web\\hrbkcwl\\node_modules\\_egg-cors@2.0.0@egg-cors",
       "version": "2.0.0"
     },
     "webpack": {
@@ -548,8 +549,8 @@
       "env": [
         "local"
       ],
-      "from": "D:\\web\\egg\\easy\\wzs\\config\\plugin.local.js",
-      "path": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-webpack@4.1.1@egg-webpack",
+      "from": "D:\\web\\hrbkcwl\\config\\plugin.local.js",
+      "path": "D:\\web\\hrbkcwl\\node_modules\\_egg-webpack@4.1.1@egg-webpack",
       "version": "4.1.1"
     },
     "webpackvue": {
@@ -561,8 +562,8 @@
       "env": [
         "local"
       ],
-      "from": "D:\\web\\egg\\easy\\wzs\\config\\plugin.local.js",
-      "path": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-webpack-vue@2.0.1@egg-webpack-vue",
+      "from": "D:\\web\\hrbkcwl\\config\\plugin.local.js",
+      "path": "D:\\web\\hrbkcwl\\node_modules\\_egg-webpack-vue@2.0.1@egg-webpack-vue",
       "version": "2.0.1"
     },
     "logview": {
@@ -574,8 +575,8 @@
       "name": "logview",
       "dependencies": [],
       "optionalDependencies": [],
-      "from": "D:\\web\\egg\\easy\\wzs\\config\\plugin.local.js",
-      "path": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-logview@1.0.1@egg-logview",
+      "from": "D:\\web\\hrbkcwl\\config\\plugin.local.js",
+      "path": "D:\\web\\hrbkcwl\\node_modules\\_egg-logview@1.0.1@egg-logview",
       "version": "1.0.1"
     }
   }
