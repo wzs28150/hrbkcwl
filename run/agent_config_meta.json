@@ -1,0 +1,342 @@
+{
+  "siteFile": {
+    "/favicon.ico": "D:\\web\\egg\\easy\\wzs\\config\\config.default.js"
+  },
+  "view": {
+    "cache": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-view@2.1.0@egg-view\\config\\config.local.js",
+    "root": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-view@2.1.0@egg-view\\config\\config.default.js",
+    "defaultExtension": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-view@2.1.0@egg-view\\config\\config.default.js",
+    "defaultViewEngine": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-view@2.1.0@egg-view\\config\\config.default.js",
+    "mapping": {
+      ".js": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.default.js"
+    }
+  },
+  "vuessr": {
+    "layout": "D:\\web\\egg\\easy\\wzs\\config\\config.default.js",
+    "renderOptions": {
+      "basedir": "D:\\web\\egg\\easy\\wzs\\config\\config.default.js"
+    },
+    "doctype": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.default.js",
+    "manifest": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.default.js",
+    "injectHeadRegex": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.default.js",
+    "injectBodyRegex": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.default.js",
+    "injectCss": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.local.js",
+    "injectJs": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.default.js",
+    "crossorigin": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.default.js",
+    "injectRes": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.default.js",
+    "fallbackToClient": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.default.js",
+    "cache": {
+      "max": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.default.js",
+      "maxAge": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.default.js"
+    },
+    "afterRender": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.default.js"
+  },
+  "logger": {
+    "consoleLevel": "D:\\web\\egg\\easy\\wzs\\config\\config.default.js",
+    "dir": "D:\\web\\egg\\easy\\wzs\\config\\config.default.js",
+    "encoding": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+    "env": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+    "level": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+    "outputJSON": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+    "buffer": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+    "appLogName": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+    "coreLogName": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+    "agentLogName": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+    "errorLogName": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "D:\\web\\egg\\easy\\wzs\\config\\config.default.js",
+    "dir": "D:\\web\\egg\\easy\\wzs\\config\\config.default.js",
+    "maxAge": "D:\\web\\egg\\easy\\wzs\\config\\config.local.js",
+    "dynamic": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-static@2.1.0@egg-static\\config\\config.default.js",
+    "preload": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-static@2.1.0@egg-static\\config\\config.default.js",
+    "buffer": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-static@2.1.0@egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-static@2.1.0@egg-static\\config\\config.default.js"
+  },
+  "keys": "D:\\web\\egg\\easy\\wzs\\config\\config.default.js",
+  "middleware": "D:\\web\\egg\\easy\\wzs\\config\\config.default.js",
+  "development": {
+    "watchDirs": "D:\\web\\egg\\easy\\wzs\\config\\config.local.js",
+    "ignoreDirs": "D:\\web\\egg\\easy\\wzs\\config\\config.local.js",
+    "fastReady": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-development@2.2.0@egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-development@2.2.0@egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-development@2.2.0@egg-development\\config\\config.default.js"
+  },
+  "logview": {
+    "dir": "D:\\web\\egg\\easy\\wzs\\config\\config.local.js",
+    "prefix": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-logview@1.0.1@egg-logview\\config\\config.default.js",
+    "staticHost": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-logview@1.0.1@egg-logview\\config\\config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "D:\\web\\egg\\easy\\wzs\\config\\config.local.js",
+    "protocolWhiteList": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
+    "csrf": {
+      "enable": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
+      "useSession": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
+      "ignoreJSON": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
+      "cookieName": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
+      "sessionName": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
+      "headerName": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
+      "bodyName": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
+      "queryName": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js"
+    },
+    "xframe": {
+      "enable": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
+      "value": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.local.js",
+      "maxAge": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
+      "value": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
+      "value": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
+      "policy": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js",
+    "key": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js",
+    "encrypt": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js"
+  },
+  "helper": {
+    "shtml": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-onerror@2.0.0@egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-onerror@2.0.0@egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-watcher@3.0.0@egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-watcher@3.0.0@egg-watcher\\config\\config.default.js",
+      "development": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-watcher@3.0.0@egg-watcher\\config\\config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "fields": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "files": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-schedule@3.3.0@egg-schedule\\config\\config.default.js",
+      "file": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-schedule@3.3.0@egg-schedule\\config\\config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-logrotator@3.0.3@egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-logrotator@3.0.3@egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-logrotator@3.0.3@egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-logrotator@3.0.3@egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-logrotator@3.0.3@egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-logrotator@3.0.3@egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-logrotator@3.0.3@egg-logrotator\\config\\config.default.js"
+  },
+  "cors": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-cors@2.0.0@egg-cors\\config\\config.default.js",
+  "webpack": {
+    "port": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-webpack@4.1.1@egg-webpack\\config\\config.default.js",
+    "proxy": {
+      "host": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-webpack@4.1.1@egg-webpack\\config\\config.default.js",
+      "match": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-webpack@4.1.1@egg-webpack\\config\\config.default.js"
+    },
+    "webpackConfigList": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg-webpack@4.1.1@egg-webpack\\config\\config.default.js"
+  },
+  "env": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+  "name": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+  "proxy": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+  "ipHeaders": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+  "hostHeaders": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+  "pkg": {
+    "name": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+    "version": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+    "description": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+    "scripts": {
+      "debug": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "build": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "build:dev": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "build:test": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "build:prod": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "dev": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "start": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "lint": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "fix": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "ii": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js"
+    },
+    "dependencies": {
+      "axios": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "cross-env": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "egg": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "egg-bin": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "egg-cors": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "egg-logger": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "egg-validate": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "egg-view-vue-ssr": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "element-ui": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "extend": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "lodash": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "mint-ui": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "mockjs": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "moment": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "vue": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "vue-hot-reload-api": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "vue-router": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "vuex": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "vuex-router-sync": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "autod-egg": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "autoprefixer": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "babel-plugin-add-module-exports": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "babel-plugin-syntax-dynamic-import": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "babel-plugin-transform-object-assign": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "babel-plugin-transform-object-rest-spread": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "babel-plugin-transform-runtime": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "babel-preset-env": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "easywebpack-cli": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "easywebpack-vue": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "egg-logview": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "egg-webpack": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "egg-webpack-vue": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "eslint": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "eslint-config-egg": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "eslint-plugin-vue": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "imagemin-webpack-plugin": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "ip": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "less": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "less-loader": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "node-sass": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "sass-loader": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "uglifyjs-webpack-plugin": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "vconsole": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "url": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js"
+    },
+    "author": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+    "license": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+    "homepage": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js"
+  },
+  "baseDir": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+  "HOME": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+  "rundir": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+    "notFound": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+    "sitefile": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+    "middlewares": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+    "httpClient": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+    "encoding": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+    "formLimit": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+    "jsonLimit": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+    "strict": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "depth": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "parameterLimit": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js"
+    }
+  },
+  "httpclient": {
+    "enableDNSCache": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+    "dnsCacheMaxAge": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+    "request": {
+      "timeout": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "maxSockets": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "maxSockets": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+    "logging": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "port": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js",
+      "hostname": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "responseTimeout": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js"
+  },
+  "onClientError": "D:\\web\\egg\\easy\\wzs\\node_modules\\_egg@2.7.1@egg\\config\\config.default.js"
+}
