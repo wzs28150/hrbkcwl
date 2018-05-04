@@ -15,6 +15,7 @@ module.exports = {
   dll: ['vue', 'axios', 'vue-router', 'vuex', 'vuex-router-sync'],
   loaders: {},
   plugins: {},
+  devtool:'source-map',
   done() {
 
   }

@@ -7,9 +7,11 @@ class AppController extends Controller {
       url: this.ctx.url.replace(/\/app/, '')
     });
   }
+
   async bannerlist() {
     this.ctx.body = indexModel.getBanner();
   }
+
   async list() {
     const pageIndex = this.ctx.query.pageIndex;
     const pageSize = this.ctx.query.pageSize;

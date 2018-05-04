@@ -2,9 +2,7 @@
   <div>
     <el-carousel class="banner">
       <el-carousel-item v-for="item in bannerList" :key="item.id"  >
-        <div class="bg" :style="{backgroundImage: 'url('+ item.img +')'}">
-
-        </div>
+        <div class="bg" :style="{backgroundImage: 'url('+ item.img +')'}"></div>
       </el-carousel-item>
     </el-carousel>
     <div class="container" style="height:5000px;"></div>
@@ -20,6 +18,10 @@
        return false;
       },
       bannerList() {
+        this.$store.state.bannerList.forEach(item => {
+          console.log(window.location.origin + item.img);
+          item.img = require('../../../asset/images/slide-1.jpg');
+        });
         return this.$store.state.bannerList;
       }
     },
