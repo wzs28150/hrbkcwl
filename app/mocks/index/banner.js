@@ -2,11 +2,11 @@
 const data = {
   list: [{
     title: 'banner1',
-    img: '/web/asset/images/slide-1.jpg',
+    img: '../../../asset/images/slide-1.jpg',
     url: 'https://cn.vuejs.org'
   }, {
     title: 'banner1',
-    img: '/web/asset/images/slide-1.jpg',
+    img: '../../../asset/images/slide-1.jpg',
     url: 'https://cn.vuejs.org'
   }]
 };
