@@ -4,3 +4,9 @@
 2018-05-04 09:35:59,962 INFO 14444 [Timer] D:\web\2webfontend\hrbkcwl\node_modules\_egg-logrotator@3.0.3@egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-05-05 00:00:01.000
 2018-05-04 12:12:37,398 INFO 17232 [Timer] D:\web\2webfontend\hrbkcwl\node_modules\_egg-logrotator@3.0.3@egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-05-05 00:00:00.000
 2018-05-04 12:12:37,399 INFO 17232 [Timer] D:\web\2webfontend\hrbkcwl\node_modules\_egg-logrotator@3.0.3@egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-05-05 00:00:01.000
+2018-05-04 13:03:34,629 INFO 23656 [Timer] D:\web\2webfontend\hrbkcwl\node_modules\_egg-logrotator@3.0.3@egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-05-05 00:00:00.000
+2018-05-04 13:03:34,630 INFO 23656 [Timer] D:\web\2webfontend\hrbkcwl\node_modules\_egg-logrotator@3.0.3@egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-05-05 00:00:01.000
+2018-05-04 13:08:43,408 INFO 19820 [Timer] D:\web\2webfontend\hrbkcwl\node_modules\_egg-logrotator@3.0.3@egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-05-05 00:00:00.000
+2018-05-04 13:08:43,409 INFO 19820 [Timer] D:\web\2webfontend\hrbkcwl\node_modules\_egg-logrotator@3.0.3@egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-05-05 00:00:01.000
+2018-05-04 13:36:43,227 INFO 8480 [Timer] D:\web\2webfontend\hrbkcwl\node_modules\_egg-logrotator@3.0.3@egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-05-05 00:00:00.000
+2018-05-04 13:36:43,228 INFO 8480 [Timer] D:\web\2webfontend\hrbkcwl\node_modules\_egg-logrotator@3.0.3@egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-05-05 00:00:01.000

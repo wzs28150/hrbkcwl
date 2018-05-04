@@ -10,7 +10,8 @@ Vue.use(Vuex);
 
 const state = {
   articleList: [],
-  article: {}
+  article: {},
+  bannerList: []
 };
 
 export default new Vuex.Store({

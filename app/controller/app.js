@@ -1,4 +1,5 @@
 const Model = require('../mocks/article/list');
+const indexModel = require('../mocks/index/banner');
 const Controller = require('egg').Controller;
 class AppController extends Controller {
   async index() {
@@ -6,7 +7,9 @@ class AppController extends Controller {
       url: this.ctx.url.replace(/\/app/, '')
     });
   }
-
+  async bannerlist() {
+    this.ctx.body = indexModel.getBanner();
+  }
   async list() {
     const pageIndex = this.ctx.query.pageIndex;
     const pageSize = this.ctx.query.pageSize;

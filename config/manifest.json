@@ -10,7 +10,6 @@
   "font/element-icons.ttf": "/public/font/element-icons.ttf",
   "font/element-icons.woff": "/public/font/element-icons.woff",
   "js/vendor.js": "/public/js/vendor.js",
-  "img/slide-1.jpg": "/public/img/slide-1.jpg",
   "vendor.js": "/public/js/vendor.js",
   "deps": {
     "app/app.js": {

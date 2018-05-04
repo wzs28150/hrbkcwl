@@ -179,3 +179,25 @@ hostname: DESKTOP-53TTJ3N
     at RenderContext.renderNode (D:\web\2webfontend\hrbkcwl\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:7407:5)
     at RenderContext.next (D:\web\2webfontend\hrbkcwl\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:2428:14)
     at cachedWrite (D:\web\2webfontend\hrbkcwl\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:2287:9)
+2018-05-04 12:39:14,299 ERROR 21128 [app/app.js] server render bundle error, try client render, the server render error { Error: Cannot find module "../../../asset/images/slide-1.jpg".
+    at webpackEmptyContext (webpack:///./app/web/component/app/Index_sync?:2:10)
+    at eval (webpack:///./app/web/component/app/Index/index.vue?./node_modules/_vue-loader@14.2.2@vue-loader/lib/template-compiler?%7B%22id%22:%22data-v-c7365226%22,%22hasScoped%22:false,%22optionsId%22:%220%22,%22buble%22:%7B%22transforms%22:%7B%7D%7D%7D!./node_modules/_vue-loader@14.2.2@vue-loader/lib/selector.js?type=template&index=0:18:117)
+    at Proxy.renderList (D:\web\2webfontend\hrbkcwl\node_modules\_vue@2.5.16@vue\dist\vue.runtime.common.js:3703:16)
+    at Proxy.render (webpack:///./app/web/component/app/Index/index.vue?./node_modules/_vue-loader@14.2.2@vue-loader/lib/template-compiler?%7B%22id%22:%22data-v-c7365226%22,%22hasScoped%22:false,%22optionsId%22:%220%22,%22buble%22:%7B%22transforms%22:%7B%7D%7D%7D!./node_modules/_vue-loader@14.2.2@vue-loader/lib/selector.js?type=template&index=0:14:13)
+    at VueComponent.Vue._render (D:\web\2webfontend\hrbkcwl\node_modules\_vue@2.5.16@vue\dist\vue.runtime.common.js:4542:22)
+    at renderComponentInner (D:\web\2webfontend\hrbkcwl\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:7521:25)
+    at renderComponent (D:\web\2webfontend\hrbkcwl\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:7491:5)
+    at renderNode (D:\web\2webfontend\hrbkcwl\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:7407:5)
+    at renderComponentInner (D:\web\2webfontend\hrbkcwl\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:7527:3)
+    at renderComponent (D:\web\2webfontend\hrbkcwl\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:7491:5) code: 'MODULE_NOT_FOUND' }
+2018-05-04 12:40:07,538 ERROR 21128 [app/app.js] server render bundle error, try client render, the server render error { Error: Cannot find module "../../../asset/images/slide-1.jpg".
+    at webpackEmptyContext (webpack:///./app/web/component/app/Index_sync?:2:10)
+    at eval (webpack:///./app/web/component/app/Index/index.vue?./node_modules/_vue-loader@14.2.2@vue-loader/lib/template-compiler?%7B%22id%22:%22data-v-c7365226%22,%22hasScoped%22:false,%22optionsId%22:%220%22,%22buble%22:%7B%22transforms%22:%7B%7D%7D%7D!./node_modules/_vue-loader@14.2.2@vue-loader/lib/selector.js?type=template&index=0:18:117)
+    at Proxy.renderList (D:\web\2webfontend\hrbkcwl\node_modules\_vue@2.5.16@vue\dist\vue.runtime.common.js:3703:16)
+    at Proxy.render (webpack:///./app/web/component/app/Index/index.vue?./node_modules/_vue-loader@14.2.2@vue-loader/lib/template-compiler?%7B%22id%22:%22data-v-c7365226%22,%22hasScoped%22:false,%22optionsId%22:%220%22,%22buble%22:%7B%22transforms%22:%7B%7D%7D%7D!./node_modules/_vue-loader@14.2.2@vue-loader/lib/selector.js?type=template&index=0:14:13)
+    at VueComponent.Vue._render (D:\web\2webfontend\hrbkcwl\node_modules\_vue@2.5.16@vue\dist\vue.runtime.common.js:4542:22)
+    at renderComponentInner (D:\web\2webfontend\hrbkcwl\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:7521:25)
+    at renderComponent (D:\web\2webfontend\hrbkcwl\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:7491:5)
+    at renderNode (D:\web\2webfontend\hrbkcwl\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:7407:5)
+    at renderComponentInner (D:\web\2webfontend\hrbkcwl\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:7527:3)
+    at renderComponent (D:\web\2webfontend\hrbkcwl\node_modules\_vue-server-renderer@2.5.16@vue-server-renderer\build.js:7491:5) code: 'MODULE_NOT_FOUND' }

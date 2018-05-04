@@ -6,6 +6,19 @@
       "GET"
     ],
     "paramNames": [],
+    "path": "/api/banner/list",
+    "regexp": "/^\\/api\\/banner\\/list(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
     "path": "/api/article/list",
     "regexp": "/^\\/api\\/article\\/list(?:\\/(?=$))?$/",
     "stack": [

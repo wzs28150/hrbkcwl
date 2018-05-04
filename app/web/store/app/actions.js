@@ -10,6 +10,17 @@ Vue.use(Vuex);
 const host = 'http://127.0.0.1:7001';
 
 const actions = {
+  FETCH_BANNER_LIST: ({ commit, dispatch, state }) => {
+    if (!state.bannerList.length) {
+      return axios.get(`${host}/api/banner/list`)
+        .then(response => {
+          let data = response.data.list;
+          commit(Type.SET_BANNER_LIST, data);
+          return data;
+        })
+    }
+    return Promise.resolve();
+  },
 
   FETCH_ARTICLE_LIST: ({ commit, dispatch, state }) => {
     if (!state.articleList.length) {
@@ -36,5 +47,3 @@ const actions = {
 };
 
 export default actions;
-
-
