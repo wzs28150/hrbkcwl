@@ -1,8 +1,8 @@
 <template>
   <main >
-    <!-- <div class="page-container page-component">
+    <el-scrollbar>
       <slot name="content"></slot>
-    </div> -->
+    </el-scrollbar>
   </main>
 </template>
 <style>

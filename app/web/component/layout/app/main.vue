@@ -1,5 +1,5 @@
 <template>
-   <div>
+   <div class="layout">
      <LayoutHeader></LayoutHeader>
      <LayoutContent>
        <div slot="content"><slot name="main"></slot></div>

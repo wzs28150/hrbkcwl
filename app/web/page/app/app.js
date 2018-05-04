@@ -5,6 +5,7 @@ import app from './app.vue';
 import App from 'app';
 import Layout from 'component/layout/app';
 import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
 App.component(Layout.name, Layout);
 App.use(ElementUI);
 sync(store, router);

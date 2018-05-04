@@ -1,343 +1,343 @@
 {
   "siteFile": {
-    "/favicon.ico": "D:\\web\\hrbkcwl\\config\\config.default.js"
+    "/favicon.ico": "D:\\web\\2webfontend\\hrbkcwl\\config\\config.default.js"
   },
   "view": {
-    "cache": "D:\\web\\hrbkcwl\\node_modules\\_egg-view@2.1.0@egg-view\\config\\config.local.js",
-    "root": "D:\\web\\hrbkcwl\\node_modules\\_egg-view@2.1.0@egg-view\\config\\config.default.js",
-    "defaultExtension": "D:\\web\\hrbkcwl\\node_modules\\_egg-view@2.1.0@egg-view\\config\\config.default.js",
-    "defaultViewEngine": "D:\\web\\hrbkcwl\\node_modules\\_egg-view@2.1.0@egg-view\\config\\config.default.js",
+    "cache": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-view@2.1.0@egg-view\\config\\config.local.js",
+    "root": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-view@2.1.0@egg-view\\config\\config.default.js",
+    "defaultExtension": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-view@2.1.0@egg-view\\config\\config.default.js",
+    "defaultViewEngine": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-view@2.1.0@egg-view\\config\\config.default.js",
     "mapping": {
-      ".js": "D:\\web\\hrbkcwl\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.default.js"
+      ".js": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.default.js"
     }
   },
   "vuessr": {
-    "layout": "D:\\web\\hrbkcwl\\config\\config.default.js",
+    "layout": "D:\\web\\2webfontend\\hrbkcwl\\config\\config.default.js",
     "renderOptions": {
-      "basedir": "D:\\web\\hrbkcwl\\config\\config.default.js"
+      "basedir": "D:\\web\\2webfontend\\hrbkcwl\\config\\config.default.js"
     },
-    "doctype": "D:\\web\\hrbkcwl\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.default.js",
-    "manifest": "D:\\web\\hrbkcwl\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.default.js",
-    "injectHeadRegex": "D:\\web\\hrbkcwl\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.default.js",
-    "injectBodyRegex": "D:\\web\\hrbkcwl\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.default.js",
-    "injectCss": "D:\\web\\hrbkcwl\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.local.js",
-    "injectJs": "D:\\web\\hrbkcwl\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.default.js",
-    "crossorigin": "D:\\web\\hrbkcwl\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.default.js",
-    "injectRes": "D:\\web\\hrbkcwl\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.default.js",
-    "fallbackToClient": "D:\\web\\hrbkcwl\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.default.js",
+    "doctype": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.default.js",
+    "manifest": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.default.js",
+    "injectHeadRegex": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.default.js",
+    "injectBodyRegex": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.default.js",
+    "injectCss": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.local.js",
+    "injectJs": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.default.js",
+    "crossorigin": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.default.js",
+    "injectRes": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.default.js",
+    "fallbackToClient": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.default.js",
     "cache": {
-      "max": "D:\\web\\hrbkcwl\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.default.js",
-      "maxAge": "D:\\web\\hrbkcwl\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.default.js"
+      "max": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.default.js",
+      "maxAge": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.default.js"
     },
-    "afterRender": "D:\\web\\hrbkcwl\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.default.js"
+    "afterRender": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-view-vue-ssr@3.0.8@egg-view-vue-ssr\\config\\config.default.js"
   },
   "logger": {
-    "consoleLevel": "D:\\web\\hrbkcwl\\config\\config.default.js",
-    "dir": "D:\\web\\hrbkcwl\\config\\config.default.js",
-    "encoding": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-    "env": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-    "level": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-    "disableConsoleAfterReady": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-    "outputJSON": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-    "buffer": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-    "appLogName": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-    "coreLogName": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-    "agentLogName": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-    "errorLogName": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+    "consoleLevel": "D:\\web\\2webfontend\\hrbkcwl\\config\\config.default.js",
+    "dir": "D:\\web\\2webfontend\\hrbkcwl\\config\\config.default.js",
+    "encoding": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+    "env": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+    "level": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+    "outputJSON": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+    "buffer": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+    "appLogName": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+    "coreLogName": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+    "agentLogName": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+    "errorLogName": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
     "coreLogger": {
-      "consoleLevel": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.local.js"
+      "consoleLevel": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.local.js"
     },
-    "allowDebugAtProd": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js"
+    "allowDebugAtProd": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js"
   },
   "static": {
-    "prefix": "D:\\web\\hrbkcwl\\config\\config.default.js",
-    "dir": "D:\\web\\hrbkcwl\\config\\config.default.js",
-    "maxAge": "D:\\web\\hrbkcwl\\config\\config.local.js",
-    "dynamic": "D:\\web\\hrbkcwl\\node_modules\\_egg-static@2.1.1@egg-static\\config\\config.default.js",
-    "preload": "D:\\web\\hrbkcwl\\node_modules\\_egg-static@2.1.1@egg-static\\config\\config.default.js",
-    "buffer": "D:\\web\\hrbkcwl\\node_modules\\_egg-static@2.1.1@egg-static\\config\\config.default.js",
-    "maxFiles": "D:\\web\\hrbkcwl\\node_modules\\_egg-static@2.1.1@egg-static\\config\\config.default.js"
+    "prefix": "D:\\web\\2webfontend\\hrbkcwl\\config\\config.default.js",
+    "dir": "D:\\web\\2webfontend\\hrbkcwl\\config\\config.default.js",
+    "maxAge": "D:\\web\\2webfontend\\hrbkcwl\\config\\config.local.js",
+    "dynamic": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-static@2.1.1@egg-static\\config\\config.default.js",
+    "preload": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-static@2.1.1@egg-static\\config\\config.default.js",
+    "buffer": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-static@2.1.1@egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-static@2.1.1@egg-static\\config\\config.default.js"
   },
-  "keys": "D:\\web\\hrbkcwl\\config\\config.default.js",
-  "middleware": "D:\\web\\hrbkcwl\\config\\config.default.js",
+  "keys": "D:\\web\\2webfontend\\hrbkcwl\\config\\config.default.js",
+  "middleware": "D:\\web\\2webfontend\\hrbkcwl\\config\\config.default.js",
   "development": {
-    "watchDirs": "D:\\web\\hrbkcwl\\config\\config.local.js",
-    "ignoreDirs": "D:\\web\\hrbkcwl\\config\\config.local.js",
-    "fastReady": "D:\\web\\hrbkcwl\\node_modules\\_egg-development@2.2.0@egg-development\\config\\config.default.js",
-    "reloadOnDebug": "D:\\web\\hrbkcwl\\node_modules\\_egg-development@2.2.0@egg-development\\config\\config.default.js",
-    "overrideDefault": "D:\\web\\hrbkcwl\\node_modules\\_egg-development@2.2.0@egg-development\\config\\config.default.js"
+    "watchDirs": "D:\\web\\2webfontend\\hrbkcwl\\config\\config.local.js",
+    "ignoreDirs": "D:\\web\\2webfontend\\hrbkcwl\\config\\config.local.js",
+    "fastReady": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-development@2.2.0@egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-development@2.2.0@egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-development@2.2.0@egg-development\\config\\config.default.js"
   },
   "logview": {
-    "dir": "D:\\web\\hrbkcwl\\config\\config.local.js",
-    "prefix": "D:\\web\\hrbkcwl\\node_modules\\_egg-logview@1.0.1@egg-logview\\config\\config.default.js",
-    "staticHost": "D:\\web\\hrbkcwl\\node_modules\\_egg-logview@1.0.1@egg-logview\\config\\config.default.js"
+    "dir": "D:\\web\\2webfontend\\hrbkcwl\\config\\config.local.js",
+    "prefix": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-logview@1.0.1@egg-logview\\config\\config.default.js",
+    "staticHost": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-logview@1.0.1@egg-logview\\config\\config.default.js"
   },
   "security": {
-    "domainWhiteList": "D:\\web\\hrbkcwl\\config\\config.local.js",
-    "protocolWhiteList": "D:\\web\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
-    "defaultMiddleware": "D:\\web\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
+    "domainWhiteList": "D:\\web\\2webfontend\\hrbkcwl\\config\\config.local.js",
+    "protocolWhiteList": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
     "csrf": {
-      "enable": "D:\\web\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
-      "useSession": "D:\\web\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
-      "ignoreJSON": "D:\\web\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
-      "cookieName": "D:\\web\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
-      "sessionName": "D:\\web\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
-      "headerName": "D:\\web\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
-      "bodyName": "D:\\web\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
-      "queryName": "D:\\web\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js"
+      "enable": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
+      "useSession": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
+      "ignoreJSON": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
+      "cookieName": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
+      "sessionName": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
+      "headerName": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
+      "bodyName": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
+      "queryName": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js"
     },
     "xframe": {
-      "enable": "D:\\web\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
-      "value": "D:\\web\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js"
+      "enable": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
+      "value": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js"
     },
     "hsts": {
-      "enable": "D:\\web\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.local.js",
-      "maxAge": "D:\\web\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
-      "includeSubdomains": "D:\\web\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js"
+      "enable": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.local.js",
+      "maxAge": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js"
     },
     "dta": {
-      "enable": "D:\\web\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js"
+      "enable": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js"
     },
     "methodnoallow": {
-      "enable": "D:\\web\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js"
+      "enable": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js"
     },
     "noopen": {
-      "enable": "D:\\web\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js"
+      "enable": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js"
     },
     "nosniff": {
-      "enable": "D:\\web\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js"
+      "enable": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js"
     },
     "referrerPolicy": {
-      "enable": "D:\\web\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
-      "value": "D:\\web\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js"
+      "enable": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
+      "value": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js"
     },
     "xssProtection": {
-      "enable": "D:\\web\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
-      "value": "D:\\web\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js"
+      "enable": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
+      "value": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js"
     },
     "csp": {
-      "enable": "D:\\web\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
-      "policy": "D:\\web\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js"
+      "enable": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
+      "policy": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js"
     },
     "ssrf": {
-      "ipBlackList": "D:\\web\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
-      "checkAddress": "D:\\web\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js"
+      "ipBlackList": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js"
     }
   },
   "session": {
-    "maxAge": "D:\\web\\hrbkcwl\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js",
-    "key": "D:\\web\\hrbkcwl\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js",
-    "httpOnly": "D:\\web\\hrbkcwl\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js",
-    "encrypt": "D:\\web\\hrbkcwl\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js"
+    "maxAge": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js",
+    "key": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js",
+    "encrypt": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js"
   },
   "helper": {
-    "shtml": "D:\\web\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js"
+    "shtml": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-security@2.2.2@egg-security\\config\\config.default.js"
   },
   "jsonp": {
-    "limit": "D:\\web\\hrbkcwl\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
-    "callback": "D:\\web\\hrbkcwl\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
-    "csrf": "D:\\web\\hrbkcwl\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js"
+    "limit": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "D:\\web\\hrbkcwl\\node_modules\\_egg-onerror@2.0.0@egg-onerror\\config\\config.default.js",
-    "appErrorFilter": "D:\\web\\hrbkcwl\\node_modules\\_egg-onerror@2.0.0@egg-onerror\\config\\config.default.js"
+    "errorPageUrl": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-onerror@2.0.0@egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-onerror@2.0.0@egg-onerror\\config\\config.default.js"
   },
   "i18n": {
-    "defaultLocale": "D:\\web\\hrbkcwl\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
-    "dirs": "D:\\web\\hrbkcwl\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
-    "queryField": "D:\\web\\hrbkcwl\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
-    "cookieField": "D:\\web\\hrbkcwl\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
-    "cookieMaxAge": "D:\\web\\hrbkcwl\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js"
+    "defaultLocale": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js"
   },
   "watcher": {
-    "type": "D:\\web\\hrbkcwl\\node_modules\\_egg-watcher@3.0.0@egg-watcher\\config\\config.local.js",
+    "type": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-watcher@3.0.0@egg-watcher\\config\\config.local.js",
     "eventSources": {
-      "default": "D:\\web\\hrbkcwl\\node_modules\\_egg-watcher@3.0.0@egg-watcher\\config\\config.default.js",
-      "development": "D:\\web\\hrbkcwl\\node_modules\\_egg-watcher@3.0.0@egg-watcher\\config\\config.default.js"
+      "default": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-watcher@3.0.0@egg-watcher\\config\\config.default.js",
+      "development": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-watcher@3.0.0@egg-watcher\\config\\config.default.js"
     }
   },
   "multipart": {
-    "autoFields": "D:\\web\\hrbkcwl\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
-    "defaultCharset": "D:\\web\\hrbkcwl\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
-    "fieldNameSize": "D:\\web\\hrbkcwl\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
-    "fieldSize": "D:\\web\\hrbkcwl\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
-    "fields": "D:\\web\\hrbkcwl\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
-    "fileSize": "D:\\web\\hrbkcwl\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
-    "files": "D:\\web\\hrbkcwl\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
-    "fileExtensions": "D:\\web\\hrbkcwl\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
-    "whitelist": "D:\\web\\hrbkcwl\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js"
+    "autoFields": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "fields": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "files": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js"
   },
   "customLogger": {
     "scheduleLogger": {
-      "consoleLevel": "D:\\web\\hrbkcwl\\node_modules\\_egg-schedule@3.3.0@egg-schedule\\config\\config.default.js",
-      "file": "D:\\web\\hrbkcwl\\node_modules\\_egg-schedule@3.3.0@egg-schedule\\config\\config.default.js"
+      "consoleLevel": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-schedule@3.3.0@egg-schedule\\config\\config.default.js",
+      "file": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-schedule@3.3.0@egg-schedule\\config\\config.default.js"
     }
   },
   "logrotator": {
-    "filesRotateByHour": "D:\\web\\hrbkcwl\\node_modules\\_egg-logrotator@3.0.3@egg-logrotator\\config\\config.default.js",
-    "hourDelimiter": "D:\\web\\hrbkcwl\\node_modules\\_egg-logrotator@3.0.3@egg-logrotator\\config\\config.default.js",
-    "filesRotateBySize": "D:\\web\\hrbkcwl\\node_modules\\_egg-logrotator@3.0.3@egg-logrotator\\config\\config.default.js",
-    "maxFileSize": "D:\\web\\hrbkcwl\\node_modules\\_egg-logrotator@3.0.3@egg-logrotator\\config\\config.default.js",
-    "maxFiles": "D:\\web\\hrbkcwl\\node_modules\\_egg-logrotator@3.0.3@egg-logrotator\\config\\config.default.js",
-    "rotateDuration": "D:\\web\\hrbkcwl\\node_modules\\_egg-logrotator@3.0.3@egg-logrotator\\config\\config.default.js",
-    "maxDays": "D:\\web\\hrbkcwl\\node_modules\\_egg-logrotator@3.0.3@egg-logrotator\\config\\config.default.js"
+    "filesRotateByHour": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-logrotator@3.0.3@egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-logrotator@3.0.3@egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-logrotator@3.0.3@egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-logrotator@3.0.3@egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-logrotator@3.0.3@egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-logrotator@3.0.3@egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-logrotator@3.0.3@egg-logrotator\\config\\config.default.js"
   },
-  "cors": "D:\\web\\hrbkcwl\\node_modules\\_egg-cors@2.0.0@egg-cors\\config\\config.default.js",
+  "cors": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-cors@2.0.0@egg-cors\\config\\config.default.js",
   "webpack": {
-    "port": "D:\\web\\hrbkcwl\\node_modules\\_egg-webpack@4.1.1@egg-webpack\\config\\config.default.js",
+    "port": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-webpack@4.1.1@egg-webpack\\config\\config.default.js",
     "proxy": {
-      "host": "D:\\web\\hrbkcwl\\node_modules\\_egg-webpack@4.1.1@egg-webpack\\config\\config.default.js",
-      "match": "D:\\web\\hrbkcwl\\node_modules\\_egg-webpack@4.1.1@egg-webpack\\config\\config.default.js"
+      "host": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-webpack@4.1.1@egg-webpack\\config\\config.default.js",
+      "match": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-webpack@4.1.1@egg-webpack\\config\\config.default.js"
     },
-    "webpackConfigList": "D:\\web\\hrbkcwl\\node_modules\\_egg-webpack@4.1.1@egg-webpack\\config\\config.default.js"
+    "webpackConfigList": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg-webpack@4.1.1@egg-webpack\\config\\config.default.js"
   },
-  "env": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-  "name": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-  "proxy": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-  "protocolHeaders": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-  "ipHeaders": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-  "hostHeaders": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+  "env": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+  "name": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+  "proxy": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+  "ipHeaders": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+  "hostHeaders": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
   "pkg": {
-    "name": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-    "version": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-    "description": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+    "name": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+    "version": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+    "description": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
     "scripts": {
-      "debug": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "build": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "build:dev": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "build:test": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "build:prod": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "dev": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "start": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "lint": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "fix": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "ii": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js"
+      "debug": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "build": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "build:dev": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "build:test": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "build:prod": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "dev": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "start": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "lint": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "fix": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "ii": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js"
     },
     "dependencies": {
-      "axios": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "cross-env": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "egg": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "egg-bin": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "egg-cors": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "egg-logger": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "egg-validate": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "egg-view-vue-ssr": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "element-ui": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "extend": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "lodash": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "mint-ui": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "mockjs": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "moment": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "vue": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "vue-hot-reload-api": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "vue-router": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "vuex": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "vuex-router-sync": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js"
+      "axios": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "cross-env": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "egg": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "egg-bin": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "egg-cors": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "egg-logger": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "egg-validate": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "egg-view-vue-ssr": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "element-ui": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "extend": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "lodash": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "mint-ui": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "mockjs": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "moment": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "vue": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "vue-hot-reload-api": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "vue-router": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "vuex": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "vuex-router-sync": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js"
     },
     "devDependencies": {
-      "autod-egg": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "autoprefixer": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "babel-plugin-add-module-exports": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "babel-plugin-syntax-dynamic-import": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "babel-plugin-transform-object-assign": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "babel-plugin-transform-object-rest-spread": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "babel-plugin-transform-runtime": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "babel-preset-env": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "easywebpack-cli": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "easywebpack-vue": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "egg-logview": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "egg-webpack": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "egg-webpack-vue": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "eslint": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "eslint-config-egg": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "eslint-plugin-vue": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "imagemin-webpack-plugin": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "ip": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "less": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "less-loader": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "node-sass": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "sass-loader": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "uglifyjs-webpack-plugin": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "vconsole": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js"
+      "autod-egg": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "autoprefixer": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "babel-plugin-add-module-exports": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "babel-plugin-syntax-dynamic-import": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "babel-plugin-transform-object-assign": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "babel-plugin-transform-object-rest-spread": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "babel-plugin-transform-runtime": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "babel-preset-env": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "easywebpack-cli": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "easywebpack-vue": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "egg-logview": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "egg-webpack": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "egg-webpack-vue": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "eslint": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "eslint-config-egg": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "eslint-plugin-vue": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "imagemin-webpack-plugin": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "ip": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "less": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "less-loader": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "node-sass": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "sass-loader": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "uglifyjs-webpack-plugin": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "vconsole": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js"
     },
     "engines": {
-      "node": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js"
+      "node": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js"
     },
     "ci": {
-      "version": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js"
+      "version": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js"
     },
     "repository": {
-      "type": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "url": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js"
+      "type": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "url": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js"
     },
-    "author": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-    "license": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-    "homepage": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js"
+    "author": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+    "license": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+    "homepage": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js"
   },
-  "baseDir": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-  "HOME": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-  "rundir": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+  "baseDir": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+  "HOME": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+  "rundir": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
   "dump": {
-    "ignore": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js"
+    "ignore": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-    "notFound": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-    "sitefile": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-    "middlewares": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-    "httpClient": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js"
+    "bodyparser": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+    "notFound": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+    "sitefile": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+    "middlewares": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+    "httpClient": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js"
   },
   "notfound": {
-    "pageUrl": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js"
+    "pageUrl": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js"
   },
   "bodyParser": {
-    "enable": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-    "encoding": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-    "formLimit": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-    "jsonLimit": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-    "strict": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+    "enable": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+    "encoding": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+    "formLimit": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+    "jsonLimit": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+    "strict": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
     "queryString": {
-      "arrayLimit": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "depth": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "parameterLimit": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js"
+      "arrayLimit": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "depth": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "parameterLimit": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js"
     }
   },
   "httpclient": {
-    "enableDNSCache": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-    "dnsCacheMaxLength": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-    "dnsCacheMaxAge": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+    "enableDNSCache": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+    "dnsCacheMaxAge": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
     "request": {
-      "timeout": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js"
+      "timeout": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "freeSocketKeepAliveTimeout": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "maxSockets": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "maxFreeSockets": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js"
+      "keepAlive": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "maxSockets": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "freeSocketKeepAliveTimeout": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "maxSockets": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "maxFreeSockets": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js"
+      "keepAlive": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "maxSockets": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js"
     }
   },
   "meta": {
-    "enable": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-    "logging": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js"
+    "enable": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+    "logging": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js"
   },
-  "coreMiddleware": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-  "workerStartTimeout": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+  "coreMiddleware": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
   "cluster": {
     "listen": {
-      "path": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "port": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-      "hostname": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js"
+      "path": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "port": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+      "hostname": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js"
     }
   },
   "clusterClient": {
-    "maxWaitTime": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
-    "responseTimeout": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js"
+    "maxWaitTime": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js",
+    "responseTimeout": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js"
   },
-  "onClientError": "D:\\web\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js"
+  "onClientError": "D:\\web\\2webfontend\\hrbkcwl\\node_modules\\_egg@2.8.0@egg\\config\\config.default.js"
 }
