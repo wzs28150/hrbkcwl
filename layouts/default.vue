@@ -2,7 +2,11 @@
 <div class="full">
 	<el-scrollbar>
 		<Header :isTop="isTop" />
-
+		<!-- <ul>
+			<li v-for="item in bannerList" :key="item.key">
+				{{item.title}}
+			</li>
+		</ul> -->
 		<nuxt/>
 	</el-scrollbar>
 </div>
@@ -18,6 +22,7 @@ export default
 			// scrollpage: document.getElementsByClassName( "el-scrollbar__wrap" )[ 0 ]
 		}
 	},
+	middleware: 'nav',
 	components:
 	{
 		'Header': Header

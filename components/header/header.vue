@@ -38,7 +38,6 @@
 				</li>
 			</ul>
 		</nav>
-
 		<!-- Social Icons -->
 		<div class="social_icons">
 			<a href="#." target="_blank"><i class="fa fa-weibo"></i></a>
@@ -53,8 +52,26 @@
   @import "./header.scss";
 </style>
 <script type="text/babel">
+
 export default
 {
-	props: ['isTop']
+	props: ['isTop'],
+	async asyncData( {} ) {
+		return  api.getIndex()
+			.then( ( res ) => {
+				return {
+					bannerList: res.data.bannerList,
+					aboutContent: res.data.aboutContent,
+					aboutList: res.data.aboutList
+				}
+			} )
+			.catch( ( e ) => {
+				error( {
+					statusCode: 404,
+					message: 'Get not found'
+				} )
+			} )
+	}
+
 }
 </script>

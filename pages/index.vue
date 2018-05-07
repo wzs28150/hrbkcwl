@@ -89,13 +89,10 @@
 </template>
 
 <script>
-import axios from 'axios'
+import api from '~/plugins/api'
 export default {
 	data: function () {
 		return {
-			bannerList:[],
-			aboutContent:{},
-			aboutList:[],
 			swiperOption: {
 				speed: 2000,
 				autoplay: {
@@ -124,51 +121,24 @@ export default {
 	methods: {
 		tabToggle: function ( id ) {
 			this.nowTab = id
-		},
-		async getBanner () {
-
-      let { data } = await axios({
-        method: 'get',
-        url: `/index/getbanner`
-      })
-      this.bannerList = data.data.bannerList
-    },
-		async getAbout () {
-
-      let { data } = await axios({
-        method: 'get',
-        url: `/index/getabout`
-      })
-      this.aboutContent = data.data.aboutContent
-			this.aboutList = data.data.aboutList
-    }
+		}
 	},
-	// async asyncData( {} ) {
-	// 	let { data } = await axios.get(`/index/info`)
-	// 	return {
-	// 				bannerList: data.data.bannerList,
-	// 				aboutContent: data.data.aboutContent,
-	// 				aboutList: data.data.aboutList,
-	// 			}
-	// 	return  api.getIndex()
-	// 		.then( ( res ) => {
-	// 			return {
-	// 				bannerList: res.data.bannerList,
-	// 				aboutContent: res.data.aboutContent,
-	// 				aboutList: res.data.aboutList
-	// 			}
-	// 		} )
-	// 		.catch( ( e ) => {
-	// 			error( {
-	// 				statusCode: 404,
-	// 				message: 'Get not found'
-	// 			} )
-	// 		} )
-	// },
-	created () {
-    this.getBanner ()
-		this.getAbout ()
-  }
+	async asyncData( {} ) {
+		return  api.getIndex()
+			.then( ( res ) => {
+				return {
+					bannerList: res.data.bannerList,
+					aboutContent: res.data.aboutContent,
+					aboutList: res.data.aboutList
+				}
+			} )
+			.catch( ( e ) => {
+				error( {
+					statusCode: 404,
+					message: 'Get not found'
+				} )
+			} )
+	}
 }
 </script>
 

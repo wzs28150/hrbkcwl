@@ -33,15 +33,16 @@ module.exports = {
    ** Build configuration
    */
   modules: [
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    '@nuxtjs/proxy'
   ],
-  axios: {
-
+  env: {
+    baseUrl: process.env.BASE_URL || 'http://localhost:3000'
   },
   plugins: [{
     src: '~plugins/api',
     ssr: false
-  },{
+  }, {
     src: '~plugins/element-ui',
     ssr: true
   }, {
@@ -60,7 +61,7 @@ module.exports = {
     extractCSS: {
       allChunks: true
     },
-    vendor: ['element-ui', 'vue-awesome-swiper'],
+    vendor: ['axios', 'element-ui', 'vue-awesome-swiper'],
     extend(config, {
       isDev,
       isClient
