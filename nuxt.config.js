@@ -39,6 +39,9 @@ module.exports = {
 
   },
   plugins: [{
+    src: '~plugins/api',
+    ssr: false
+  },{
     src: '~plugins/element-ui',
     ssr: true
   }, {

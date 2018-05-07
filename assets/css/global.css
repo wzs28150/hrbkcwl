@@ -1,9 +1,10 @@
-/* @import "./normalize.css"; */
+@import "./normalize.css";
 
 /* @import "./bootstrap.css"; */
 
 @import "./font-awesome.min.css";
-/* @import "./app.css"; */
+@import "./ionicons.min.css";
+
 @import "./animate.css";
 
 * {
@@ -17,19 +18,51 @@
 body {
   font-size: 14px;
 }
-h1, h2, h3, h4, h5, h6 {
-    color: rgb(37, 37, 37);
-    font-family: "Microsoft YaHei", 微软雅黑;
-    font-weight: bold;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(37, 37, 37);
+  font-family: "Microsoft YaHei", 微软雅黑;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
-html, body, .full, #__nuxt, #__layout, .full .el-scrollbar {
+
+html,
+body,
+.full,
+#__nuxt,
+#__layout,
+.full .el-scrollbar {
   margin: 0;
   padding: 0;
   height: 100%;
   width: 100%;
   overflow: hidden;
+}
+
+p {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: 400;
+  color: #6f6f6f;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  text-decoration: none !important;
 }
 
 .full .el-scrollbar__bar {
@@ -85,60 +118,64 @@ body {
 
 
 .text-hidden {
-  display      : block;
-  white-space  : nowrap;
-  overflow     : hidden;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
   text-overflow: ellipsis;
 }
+
 /*水平垂直居中*/
 
 .wh-center {
-  display            : -webkit-box;
-  display            : -ms-flexbox;
-  display            : -webkit-flex;
-  display            : flex;
-  -webkit-box-pack   : center;
-  -ms-flex-pack      : center;
-  justify-content    : center;
-  -webkit-box-align  : center;
-  -ms-flex-align     : center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   -webkit-align-items: center;
-  align-items        : center;
+  align-items: center;
 }
+
 /*垂直居中*/
 
 .h-center {
-  display            : -webkit-box;
-  display            : -ms-flexbox;
-  display            : -webkit-flex;
-  display            : flex;
-  -webkit-box-align  : center;
-  -ms-flex-align     : center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   -webkit-align-items: center;
-  align-items        : center;
+  align-items: center;
 }
+
 /*分组父级*/
 
 .felx-box {
-  display              : -webkit-box;
-  -webkit-box-orient   : horizontal;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-box-pack     : justify;
-  -webkit-box-align    : center;
-  display              : flex;
-  flex-flow            : row nowrap;
-  align-items          : left;
+  -webkit-box-pack: justify;
+  -webkit-box-align: center;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: left;
 }
 
 .huanhang {
-  flex-flow: row wrap!important;
+  flex-flow: row wrap !important;
 }
+
 /*分组子级*/
 
 .felx-item {
   -webkit-box-flex: 1;
-  flex-basis      : 1;
-  flex-grow       : 1;
-  flex-shrink     : 1;
-  flex            : 1 1 1;
+  flex-basis: 1;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex: 1 1 1;
 }
