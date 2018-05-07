@@ -26,7 +26,7 @@
 	</div>
 	<div class="i-about">
 		<div class="container">
-			<el-row>
+			<el-row :gutter="20">
 				<el-col :span="16">
 					<div class="heading">
 						<h4>{{aboutContent.title}}</h4>
@@ -64,7 +64,19 @@
 					</div>
 				</el-col>
 				<el-col :span="8">
-					<div class="grid-content bg-purple"></div>
+					<div v-swiper:aboutpicSwiper="swiperOption2"
+					     class="banner aboutpic">
+						<div class="swiper-wrapper ">
+							<div class="swiper-slide"
+							     v-for="banner in bannerList"
+							     :key="banner.id">
+								<!-- <img :src="banner.img"> -->
+								<div class="bg h-center"
+								     :style="{backgroundImage: 'url(' + banner.img + ')'}">
+								</div>
+							</div>
+						</div>
+					</div>
 				</el-col>
 			</el-row>
 		</div>
@@ -82,6 +94,8 @@ export default {
 	data: function () {
 		return {
 			bannerList:[],
+			aboutContent:{},
+			aboutList:[],
 			swiperOption: {
 				speed: 2000,
 				autoplay: {
@@ -93,6 +107,14 @@ export default {
 					prevEl: '.banner .swiper-button-prev'
 				},
 				parallax: true,
+			},
+			swiperOption2: {
+				speed: 2000,
+				autoplay: {
+					delay: 3000
+				},
+				effect : 'fade',
+				loop: true
 			},
 			nowTab: 1,
 			img:''
@@ -110,32 +132,42 @@ export default {
         url: `/index/getbanner`
       })
       this.bannerList = data.data.bannerList
-			console.log(this.bannerList);
+    },
+		async getAbout () {
+
+      let { data } = await axios({
+        method: 'get',
+        url: `/index/getabout`
+      })
+      this.aboutContent = data.data.aboutContent
+			this.aboutList = data.data.aboutList
     }
 	},
-	async asyncData( {} ) {
-		let { data } = await axios.get(`/index/info`)
-		return {
-					// bannerList: data.data.bannerList,
-					aboutContent: data.data.aboutContent,
-					aboutList: data.data.aboutList,
-				}
-		// return  api.getIndex()
-		// 	.then( ( res ) => {
-		// 		return {
-		// 			bannerList: res.data.bannerList,
-		// 			aboutContent: res.data.aboutContent,
-		// 			aboutList: res.data.aboutList
-		// 		}
-		// 	} )
-		// 	.catch( ( e ) => {
-		// 		error( {
-		// 			statusCode: 404,
-		// 			message: 'Get not found'
-		// 		} )
-		// 	} )
-	},created () {
+	// async asyncData( {} ) {
+	// 	let { data } = await axios.get(`/index/info`)
+	// 	return {
+	// 				bannerList: data.data.bannerList,
+	// 				aboutContent: data.data.aboutContent,
+	// 				aboutList: data.data.aboutList,
+	// 			}
+	// 	return  api.getIndex()
+	// 		.then( ( res ) => {
+	// 			return {
+	// 				bannerList: res.data.bannerList,
+	// 				aboutContent: res.data.aboutContent,
+	// 				aboutList: res.data.aboutList
+	// 			}
+	// 		} )
+	// 		.catch( ( e ) => {
+	// 			error( {
+	// 				statusCode: 404,
+	// 				message: 'Get not found'
+	// 			} )
+	// 		} )
+	// },
+	created () {
     this.getBanner ()
+		this.getAbout ()
   }
 }
 </script>
