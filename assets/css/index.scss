@@ -76,8 +76,7 @@
 }
 
 .i-about {
-  margin: 100px 0;
-
+  // margin: 100px 0;
   .heading {
     h4 {
       font-size     : 24px;
@@ -144,6 +143,134 @@
         letter-spacing: 1px;
         line-height   : 28px;
       }
+    }
+  }
+
+  .aboutpic {
+    height        : 0;
+    padding-bottom: 131.758530183727%;
+
+    .swiper-wrapper {
+      position: absolute;
+
+      .swiper-slide {
+        .bg {
+          width              : 100%;
+          height             : 100%;
+          background-position: center;
+          background-repeat  : no-repeat;
+          background-size    : cover;
+
+          .text-group {
+            color     : #fff;
+            position  : relative;
+            left      : 55%;
+
+            h2 {
+              color         : #fff;
+              font-size     : 45px;
+              text-transform: uppercase;
+              white-space   : nowrap;
+              min-height    : 0;
+              min-width     : 0;
+              line-height   : 64px;
+              font-weight   : normal;
+            }
+
+            p {
+              margin: 10% 0;
+            }
+
+            a {
+              color          : rgb(255, 255, 255);
+              display        : inline-block;
+              text-decoration: none;
+              font-weight    : normal;
+              font-size      : 12px;
+              font-family    : "Microsoft YaHei", 微软雅黑;
+              line-height    : 46px;
+              letter-spacing : 1px;
+              position       : relative;
+              z-index        : 1;
+              border-width   : initial;
+              border-style   : none;
+              border-color   : initial;
+              border-image   : initial;
+              padding        : 0 40px;
+              border-radius  : 0;
+              background     : rgb(171, 78, 82);
+            }
+            transition: all 0s ease 0s;
+          }
+        }
+      }
+    }
+
+    .swiper-pagination {
+      span {
+        height            : 4px;
+        width             : 9px;
+        display           : inline-block;
+        background        : #d7d9db;
+        opacity           : 1;
+        margin            : 0 2px;
+        border-radius     : 5px;
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition   : all 0.4s ease-in-out;
+        -o-transition     : all 0.4s ease-in-out;
+        -ms-transition    : all 0.4s ease-in-out;
+        transition        : all 0.4s ease-in-out;
+
+        &.swiper-pagination-bullet-active {
+          background: #ab4e52;
+          width     : 20px;
+        }
+      }
+    }
+  }
+}
+
+.i-products {
+  background           : url("~assets/img/build-feature1.jpg") repeat-y;
+  background-attachment: fixed;
+  background-size      : 100%;
+
+  .heading {
+    span {
+      display       : inline-block;
+      width         : 100%;
+      font-size     : 12px;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      font-family   : 'Montserrat', sans-serif;
+    }
+
+    h4 {
+      font-weight   : 600;
+      letter-spacing: 2px;
+      font-size     : 24px;
+      margin-top    : 10px;
+      margin-bottom : 10px;
+    }
+
+    hr {
+      height    : 2px;
+      background: #ab4e52;
+      border    : none;
+      margin    : 20px auto;
+      width     : 40px;
+    }
+
+    p {
+      font-size     : 15px;
+      line-height   : 30px;
+      color         : #5a5a5a;
+      width         : 75%;
+      margin        : 0 auto;
+      font-family   : "Microsoft YaHei",微软雅黑;
+      letter-spacing: 1px;
+      font-weight   : 400;
+      text-rendering: optimizeLegibility;
     }
   }
 }
